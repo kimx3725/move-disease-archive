@@ -27,11 +27,11 @@ If you would like to contribute your eco-epidemiological data to the MDA, we str
 
 -**Studies remain publicly discoverable**, and owners are open to considering collaboration requests. They do not need to be publicly downloadable.
 
--**Data meet basic quality standards**, including accurate formatting and sufficient metadata (See our [data standards](data_req.qmd) and [Submission Guide](submission_guide.qmd)).
+-**Data meet basic quality standards**, including accurate formatting and sufficient metadata (See our [Data Standards](data_req.qmd) and [Submission Guide](submission_guide.qmd)).
 
 -**Owner contact information remains up to date**, particularly for studies that are not publicly accessible.
 
-Once your data are ready, please complete the MDA Participation Agreement, after which your study will be reviewed and added to the list of participating projects.
+Once your data are ready, please complete the [MDA Participation Agreement](participation_agreement.qmd), after which your study will be reviewed and added to the list of participating projects.
 
 ### Data users 
 The MDA facilitates access to global eco-epidemiological datasets that pair animal movement with diagnostic information from infected and susceptible wildlife. These resources support research on how pathogens influence animal behavior, infection dynamics, and potential spillover risks to domestic animals and humans. The MDA does not redistribute raw disease or animal-tracking data. All datasets remain under the control of the original data providers, and the MDA functions as a discovery and access platform. Researchers are directed to data owners and must comply with their licensing and ethical requirements prior to use.
@@ -45,7 +45,9 @@ The archive is designed to support a wide range of beneficial uses, including:
 -**Conservation and management of disease-affected species**\
 -**Education and public engagement**
 
+::: callout-important
 As with all Movebank-hosted data, the MDA includes both public and controlled-access studies. We strongly encourage users to contact data owners about proposed uses, as they can offer critical ecological and diagnostic context. Please also review Movebank's [terms of use](https://www.movebank.org/cms/movebank-content/general-movebank-terms-of-use) and [user agreement](https://www.movebank.org/cms/movebank-content/data-policy#user_agreement). For help with data-sharing requests, contact [kimx3725\@umn.edu](mailto:kimx3725@umn.edu). 
+:::
 
 ## Contact
 
