@@ -27,7 +27,7 @@ If you would like to contribute your eco-epidemiological data to the MDA, we str
 
 -**Studies remain publicly discoverable**, and owners are open to considering collaboration requests. They do not need to be publicly downloadable.
 
--**Data meet basic quality standards**, including accurate formatting and sufficient metadata (See our data standards and [Submission Guide](submission_guide.qmd)).
+-**Data meet basic quality standards**, including accurate formatting and sufficient metadata (See our [data standards](data_req.qmd) and [Submission Guide](submission_guide.qmd)).
 
 -**Owner contact information remains up to date**, particularly for studies that are not publicly accessible.
 
