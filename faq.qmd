@@ -1,0 +1,29 @@
+---
+title: "Frequently Asked Questions"
+date: today
+---
+
+## How do I get started? 
+
+Visit our [Submission Guide](submission_guide.qmd) for submitting your data to the archive.
+
+## My data are already in a repository. Can I deposit them in MDA as well?
+
+Yes! Data can be deposited in multiple places. 
+
+## Do I have to make my data public? 
+
+Not at all! The archive accommodates both open and restricted data. You can contribute information from active studies, sensitive species records, or datasets that require formal sharing agreements. While we recommend making finalized data publicly available when it makes sense, you choose the timing and level of access for your submissions.
+
+
+## How are data accessed and shared?
+
+Data owners are never required to share their data. When the data are public, users must accept MDA’s terms of use and are encouraged to contact the owners to explore potential collaboration. For data that remains private, owners decide whether to take part in specific projects and may request formal data-sharing agreements. Decisions about attribution and co-authorship are always handled directly between data owners and users on a case-by-case basis.
+
+## What privacy options does MDA offer?
+
+MDA provides multiple levels of data permissions. Examples include:\
+-**Public summary only**: Study information is publicly visible, but no location data is shared.\
+-**Public tracks**: Animal movements can be viewed on maps, though downloads are not permitted.\
+-**Public data**: Full data can be downloaded publicly once users accept the terms of use.\
+-**Future public data**: You may set an embargo period (up to 10 years) before the data becomes publicly accessible. 

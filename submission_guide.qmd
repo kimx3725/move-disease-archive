@@ -1,0 +1,77 @@
+---
+title: "Submission Guide"
+subtitle: "A detailed guide to preparing and submitting your studies to the archive"
+date: today
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    code-fold: false
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Background
+The Move Disease Archive (MDA) is a curated collection of animal movement datasets hosted on [Movebank](https://www.movebank.org), a free, online database maintained by the Max Planck Institute of Animal Behavior. Movebank enables animal tracking researchers to manage, share, protect, analyze, and archive movement data in a standardized and secure environment.
+
+Because the archive is hosted on Movebank, contributors are encouraged to upload their movement data to the platform whenever possible. However, there are two alternative ways to participate for researchers who do not prefer to upload data themselves or have restrictions on their data sharing.
+
+(1) **Assistance with Movebank upload**: Researchers who are willing to have their data stored on Movebank but prefer not to organize or upload the data themselves may indicate this preference. In these cases, the archive team may assist with organizing the data and uploading it to Movebank.
+
+(2) **No data storage on Movebank**: Researchers who cannot or prefer not to store their data on Movebank due to legal, ethical, or institutional constraints may still contribute by providing descriptive information about their datasets and contact details. This is the same for the researchers who already shared their data in other public repositories. These contributors may skip the data-upload steps and instead complete the relevant forms to list their available datasets in the archive, allowing interested users to request collaboration directly. 
+
+## Steps to Submit Your Data to the Archive
+::: callout-tip
+## How would you like to participate?
+
+- **Option A**: Upload your data to Movebank
+- **Option B**: Do not upload data to Movebank; list your data on the MDA website or through an external repository
+:::
+
+Many of the steps below are adapted from guidance in Movebank’s User Manual. Contributors are encouraged to consult Movebank documentation for additional details as needed. 
+
+## Option A: Upload Your Data to Movebank
+This option is recommended for contributors who wish to host their movement data on Movebank and integrate fully with the archive. If you prefer that we complete Steps A1–A5 for you, please contact [support\@movebank.org](mailto:support@movebank.org) or [kimx3725\@umn.edu](mailto:kimx3725@umn.edu).
+
+### A1. Create a study with complete study details 
+Each dataset must be associated with a clearly described study in Movebank. If your study already exists in Movebank, review the Study Details to confirm that all required fields are complete and accurate. These details support discoverability, proper attribution, and informed collaboration.
+
+### A2. Set permissions for the study 
+Contributors retain full control over access to their data. Movebank users should review and configure their study’s visibility and download permissions to reflect their intended level of data sharing (e.g., summary-only access, public tracks, or downloadable data). 
+
+### A3. Import location data into the study 
+Upload tracking data to your Movebank study using either manual file uploads or automated data feeds from supported tag manufacturers. Ensure that the uploaded data matches the Movebank formatting and quality standards. 
+
+### A4. Add reference data to the study 
+Reference data provide essential context for interpreting movement data, such as animal characteristics, tag information, and deployment details. At a minimum, studies should include standardized identifiers and basic biological metadata as outlined in the [MDA’s data standards](data_req.qmd) (see some of our worked examples).
+
+### A5. Add “MoveDiseaseArchive” user as a collaborator 
+Once your study is complete, add the **“MoveDiseaseArchive”** user as a collaborator (instructions can be found [here](https://www.movebank.org/cms/movebank-content/permissions-and-sharing#add_data_managers_&_collaborators). This allows the archive curators to index and display your study as part of the Move Disease Archive.
+
+### A6. Complete the participation agreement and submission form 
+Complete the [participation agreement](participation_agreement.qmd) form to formally submit your study to the archive.
+
+::: callout-important
+**Need Help?**
+
+If you encounter issues, contact Dongmin (Dennis) Kim at
+[kimx3725\@umn.edu](mailto:kimx3725@umn.edu) or, for technical issues,
+Movebank support at
+[support\@movebank.org](mailto:support@movebank.org).
+:::
+
+## Option B: List Your Dataset Without Uploading to Movebank
+This option is intended for contributors who prefer not to upload location data to Movebank or whose data are already available through another public or restricted-access repository.
+
+### B1. Prepare study-level information
+Ensure that you can provide complete study-level data in accordance with the archive’s data standards. 
+
+### B2. Contact the MDA Curator 
+Contact the Move Disease Archive curator [kimx3725\@umn.edu](mailto:kimx3725@umn.edu) to provide study-level information using the archive’s [data template](data_req.qmd). Datasets may be publicly listed through an external repository or described without public data access, depending on your preferences and permissions. 
+
+### B3. Specify data access and permission 
+Indicate how potential collaborators may request access to your data and any restrictions or conditions associated with its use. 
+
+### B4. Complete the participation agreement and submission form 
+All contributors must complete the [participation agreement](participation_agreement.qmd) to be listed in the archive.

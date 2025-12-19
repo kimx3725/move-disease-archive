@@ -1,0 +1,88 @@
+---
+---
+
+![](images/move_disease_archive_logo.png){fig-align="center" width="2000"}
+
+The **Move Disease Archive (MDA)** is a global collection of eco-epidemiological datasets that integrate animal movement and other animal-borne sensor data with diagnostic information (e.g., swabs, blood samples) from infected and susceptible wildlife. The archive serves as a resource for researchers seeking to understand how pathogens influence animal behavior, infection spread, and the risk of spillover to domestic animals and humans. 
+
+As of November 2025, the MDA is being developed in collaboration with [Movebank](https://www.movebank.org/cms/movebank-main), the Move Biodiversity Observation Network ([Move BON](https://geobon.org/move-bon/)), [Euromammals](https://euromammals.org/), and [Verena Institute](https://www.viralemergence.org/) to support long-term FAIR (Findable, Accessible, Interoperable, Reusable) data stewardship for wildlife health and disease surveillance ([Wilkinson et al. 2016](https://doi.org/10.1038/sdata.2016.18)). 
+
+## Why a Disease Archive for Animal Movement?
+Wildlife plays an important role in the emergence and spread of infectious diseases, both as hosts and as sources of zoonotic pathogens that threaten human and livestock health. Climate change and shifting species distributions further intensify these risks by altering contact and movement patterns and reshaping pathogen dynamics across ecosystems. Understanding disease dynamics in wildlife populations is crucial for conservation and for reducing the risk of pathogen spillover to livestock and people. However, detecting and monitoring infections in free-ranging animals remains a challenge. Traditional sampling offers only snapshots in time and often misses key stages of infection. Because pathogens can alter host movement, space use, and activity patterns, a collection of infected animal movement data provides a promising tool for disease surveillance. The MDA supports a transferable approach to real-time monitoring of infection in free-ranging wildlife by linking animal movement data and disease-related data such as diagnostic test results and mortality records. The MDA brings together movement ecologists, disease ecologists, and veterinarians to build an early-warning system for wildlife health and support research at the interface of movement and disease ecology. 
+
+## Goals of the MDA
+The MDA aims to: 
+
+-**Create a global platform**: Manage, share, and archive animal movement datasets that include disease information, diagnostic test results, and mortality outcomes. 
+
+-**Provide data standards and submission guidance**: Develop a compatible reporting framework to help data owners include the information needed for disease-focused research.
+
+-**Facilitate collaboration and data discovery**: Enable researchers to identify datasets, connect with data owners, and advance work on infection-driven behavioral change, pathogen transmission, and wildlife health monitoring through biologging methods.
+
+## How to participate
+Read below to find out how you can contribute to the MDA by participating in datasets or initiating new collaborations and beneficial uses of the data. 
+
+### Data owners 
+If you would like to contribute your eco-epidemiological data to the MDA, we strongly prefer that you share them through Movebank or another animal tracking data repository. This will make the MDA more widely accessible and facilitate data quality control and processing. For assistance organizing your data on Movebank, contact [support\@movebank.org](mailto:support@movebank.org) and [kimx3725\@umn.edu](mailto:kimx3725@umn.edu). If you are not able to store data on Movebank or another repository,  please contact us. In addition to organizing data within Movebank or a similar repository, participation requires: 
+
+-**Studies remain publicly discoverable**, and owners are open to considering collaboration requests. They do not need to be publicly downloadable.
+
+-**Data meet basic quality standards**, including accurate formatting and sufficient metadata (See our data standards and [Submission Guide](submission_guide.qmd)).
+
+-**Owner contact information remains up to date**, particularly for studies that are not publicly accessible.
+
+Once your data are ready, please complete the MDA Participation Agreement, after which your study will be reviewed and added to the list of participating projects.
+
+### Data users 
+The MDA facilitates access to global eco-epidemiological datasets that pair animal movement with diagnostic information from infected and susceptible wildlife. These resources support research on how pathogens influence animal behavior, infection dynamics, and potential spillover risks to domestic animals and humans. The MDA does not redistribute raw disease or animal-tracking data. All datasets remain under the control of the original data providers, and the MDA functions as a discovery and access platform. Researchers are directed to data owners and must comply with their licensing and ethical requirements prior to use.
+
+The archive is designed to support a wide range of beneficial uses, including: 
+
+-**Studies of infection-driven behavioral change**\
+-**Improved understanding of pathogen transmission and spread**\
+-**Wildlife health monitoring through biologging**\
+-**Eco-epidemiological modeling**\
+-**Conservation and management of disease-affected species**\
+-**Education and public engagement**
+
+As with all Movebank-hosted data, the MDA includes both public and controlled-access studies. We strongly encourage users to contact data owners about proposed uses, as they can offer critical ecological and diagnostic context. Please also review Movebank's [terms of use](https://www.movebank.org/cms/movebank-content/general-movebank-terms-of-use) and [user agreement](https://www.movebank.org/cms/movebank-content/data-policy#user_agreement). For help with data-sharing requests, contact [kimx3725\@umn.edu](mailto:kimx3725@umn.edu). 
+
+## Contact
+
+::: callout-note
+## Contact Information
+
+**MoveDiseaseArchive PI and data curator:** Dongmin (Dennis) Kim\
+**Organization:** University of Minnesota \& Harvard University\
+**Email:** [kimx3725\@umn.edu](mailto:kimx3725@umn.edu)
+
+**MoveDiseaseArchive PI:** Kevin Morelle\
+**Organization:** Max Planck Institute of Animal Behavior \& Minuartia\
+**Email:** [kmorelle\@ab.mpg.de](mailto:kmorelle@ab.mpg.de)
+
+**Movebank data curator:** Sarah Davidson\
+**Organization:** Max Planck Institute of Animal Behavior\
+**Email:** [sdavidson\@ab.mpg.de](mailto:sdavidson@ab.mpg.de)
+
+**Contributor:** Claire Teitelbum\
+**Organization:** Georgia Cooperative Fish and Wildlife Research Unit\
+**Email:** [cteitelbaum\@uga.edu](mailto:cteitelbaum@uga.edu)
+
+**Contributor:** Collin Schwantes\
+**Organization:** Verena Institute, Yale University\
+**Email:** [collin.schwantes\@yale.edu](mailto:collin.schwantes@yale.edu)
+
+**Contributor:** Francesca Cagnacci\
+**Organization:** Fondazione Edmund Mach \& National Biodiversity Future Centre\
+**Email:** [francesca.cagnacci\@fmach.it](mailto:francesca.cagnacci@fmach.it)
+
+**Contributor:** Marta Valldeperes Falgueras\
+**Organization:** University of Georgia\
+**Email:** [marta.valldeperes\@uga.edu](mailto:marta.valldeperes@uga.edu)
+
+**Contributor:** Will Rogers\
+**Organization:** Yale University\
+**Email:** [will.rogers\@yale.edu](mailto:will.rogers@yale.edu)
+
+**For technical assistance with Movebank:** [support\@movebank.org](mailto:support@movebank.org)
+:::

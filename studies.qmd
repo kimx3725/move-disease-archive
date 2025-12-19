@@ -1,0 +1,95 @@
+---
+title: "Participating Studies & Data Standards"
+execute:
+  echo: false
+format: 
+  html:
+    page-layout: full
+    toc: true
+    code-fold: false
+---
+
+This initiative began in the winter of 2025. If you would like your study to be included in the archive, checkout our [Submission Guide](submission_guide.qmd) or contact us ([kimx3725\@umn.edu](mailto:kimx3725@umn.edu)). 
+
+## Section A: Movebank-derived Movement Data
+
+This table is a placeholder for studies derived from Movebank. Columns match the archive data standard, currently empty.
+
+```{r section A, include=FALSE}
+library(DT)
+library(dplyr)
+
+# Define the data standard variables
+data_columns <- c(
+  "Study Name",
+  "Principal Investigator",
+  "Animal Taxon",
+  "No. of Animals",
+  "First deployment",
+  "Latest deployment",
+  "Sensor type",
+  "Host ID",
+  "Pathogen ID",
+  "Sample collection method",
+  "Sample material",
+  "Sample collection date",
+  "Detection target",
+  "Detection method",
+  "Detection outcome",
+  "Detection measurement",
+  "Detection measurement units",
+  "Detection measurement method details",
+  "Detection measurement interpretation",
+  "Detection limit",
+  "Detection limit units"
+)
+
+# Create empty placeholder table for Section A
+section_a_table <- tibble::tibble(
+  !!!setNames(rep(list(character()), length(data_columns)), data_columns)
+)
+```
+
+```{r section output A, output = TRUE, warning=FALSE}
+DT::datatable(
+section_a_table,
+options = list(
+pageLength = 10,
+scrollX = TRUE
+),
+caption = htmltools::tags$caption(
+style = "caption-side: bottom; text-align: left;",
+"Section A: Movebank-derived studies (currently empty placeholder)."
+)
+)
+```
+
+## Section B: Private Data (Contact Required) \& External Repository Data
+
+This table serves as a placeholder for studies that fall into one of the following categories:
+
+- **Private datasets**: Studies that cannot be stored on Movebank due to legal, ethical, or institutional constraints, but still provide descriptive information about their datasets and contact details.
+
+- **External repository datasets**: Studies that are already shared in other public repositories outside of Movebank.
+
+```{r Section B, include=FALSE}
+# Create empty table for Section B with same columns
+
+section_b_table <- tibble::tibble(
+!!!setNames(rep(list(character()), length(data_columns)), data_columns)
+)
+```
+
+```{r section B output, output=TRUE, warning=FALSE}
+DT::datatable(
+section_b_table,
+options = list(
+pageLength = 10,
+scrollX = TRUE
+),
+caption = htmltools::tags$caption(
+style = "caption-side: bottom; text-align: left;",
+"Section B: Private Data and External Repository Data. (empty template)."
+)
+)
+```

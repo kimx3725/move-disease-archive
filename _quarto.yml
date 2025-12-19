@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Move Disease Archive"
+  favicon: "images/favicon.png"
+  navbar:
+    title: false
+    logo: "images/navbar_logo.png"
+    background: "#D9DDDC"
+    left:
+      - href: index.qmd
+        text: About
+      - href: studies.qmd
+        text: Studies
+      - href: submission_guide.qmd
+        text: Submission Guide
+      - href: data_req.qmd
+        text: Data Standard
+      - href: participation_agreement.qmd
+        text: Participation Agreement
+      - href: faq.qmd
+        text: FAQ
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+

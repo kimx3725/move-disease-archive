@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "submission_guide.html",
+    "href": "submission_guide.html",
+    "title": "Submission Guide",
+    "section": "",
+    "text": "The Move Disease Archive (MDA) is a curated collection of animal movement datasets hosted on Movebank, a free, online database maintained by the Max Planck Institute of Animal Behavior. Movebank enables animal tracking researchers to manage, share, protect, analyze, and archive movement data in a standardized and secure environment.\nBecause the archive is hosted on Movebank, contributors are encouraged to upload their movement data to the platform whenever possible. However, there are two alternative ways to participate for researchers who do not prefer to upload data themselves or have restrictions on their data sharing.\n\nAssistance with Movebank upload: Researchers who are willing to have their data stored on Movebank but prefer not to organize or upload the data themselves may indicate this preference. In these cases, the archive team may assist with organizing the data and uploading it to Movebank.\nNo data storage on Movebank: Researchers who cannot or prefer not to store their data on Movebank due to legal, ethical, or institutional constraints may still contribute by providing descriptive information about their datasets and contact details. This is the same for the researchers who already shared their data in other public repositories. These contributors may skip the data-upload steps and instead complete the relevant forms to list their available datasets in the archive, allowing interested users to request collaboration directly."
+  },
+  {
+    "objectID": "submission_guide.html#background",
+    "href": "submission_guide.html#background",
+    "title": "Submission Guide",
+    "section": "",
+    "text": "The Move Disease Archive (MDA) is a curated collection of animal movement datasets hosted on Movebank, a free, online database maintained by the Max Planck Institute of Animal Behavior. Movebank enables animal tracking researchers to manage, share, protect, analyze, and archive movement data in a standardized and secure environment.\nBecause the archive is hosted on Movebank, contributors are encouraged to upload their movement data to the platform whenever possible. However, there are two alternative ways to participate for researchers who do not prefer to upload data themselves or have restrictions on their data sharing.\n\nAssistance with Movebank upload: Researchers who are willing to have their data stored on Movebank but prefer not to organize or upload the data themselves may indicate this preference. In these cases, the archive team may assist with organizing the data and uploading it to Movebank.\nNo data storage on Movebank: Researchers who cannot or prefer not to store their data on Movebank due to legal, ethical, or institutional constraints may still contribute by providing descriptive information about their datasets and contact details. This is the same for the researchers who already shared their data in other public repositories. These contributors may skip the data-upload steps and instead complete the relevant forms to list their available datasets in the archive, allowing interested users to request collaboration directly."
+  },
+  {
+    "objectID": "submission_guide.html#steps-to-submit-your-data-to-the-archive",
+    "href": "submission_guide.html#steps-to-submit-your-data-to-the-archive",
+    "title": "Submission Guide",
+    "section": "Steps to Submit Your Data to the Archive",
+    "text": "Steps to Submit Your Data to the Archive\n\n\n\n\n\n\nTipHow would you like to participate?\n\n\n\n\nOption A: Upload your data to Movebank\nOption B: Do not upload data to Movebank; list your data on the MDA website or through an external repository\n\n\n\nMany of the steps below are adapted from guidance in Movebank’s User Manual. Contributors are encouraged to consult Movebank documentation for additional details as needed."
+  },
+  {
+    "objectID": "submission_guide.html#option-a-upload-your-data-to-movebank",
+    "href": "submission_guide.html#option-a-upload-your-data-to-movebank",
+    "title": "Submission Guide",
+    "section": "Option A: Upload Your Data to Movebank",
+    "text": "Option A: Upload Your Data to Movebank\nThis option is recommended for contributors who wish to host their movement data on Movebank and integrate fully with the archive. If you prefer that we complete Steps A1–A5 for you, please contact support@movebank.org or kimx3725@umn.edu.\n\nA1. Create a study with complete study details\nEach dataset must be associated with a clearly described study in Movebank. If your study already exists in Movebank, review the Study Details to confirm that all required fields are complete and accurate. These details support discoverability, proper attribution, and informed collaboration.\n\n\nA2. Set permissions for the study\nContributors retain full control over access to their data. Movebank users should review and configure their study’s visibility and download permissions to reflect their intended level of data sharing (e.g., summary-only access, public tracks, or downloadable data).\n\n\nA3. Import location data into the study\nUpload tracking data to your Movebank study using either manual file uploads or automated data feeds from supported tag manufacturers. Ensure that the uploaded data matches the Movebank formatting and quality standards.\n\n\nA4. Add reference data to the study\nReference data provide essential context for interpreting movement data, such as animal characteristics, tag information, and deployment details. At a minimum, studies should include standardized identifiers and basic biological metadata as outlined in the MDA’s data standards (see some of our worked examples).\n\n\nA5. Add “MoveDiseaseArchive” user as a collaborator\nOnce your study is complete, add the “MoveDiseaseArchive” user as a collaborator (instructions can be found here. This allows the archive curators to index and display your study as part of the Move Disease Archive.\n\n\nA6. Complete the participation agreement and submission form\nComplete the participation agreement form to formally submit your study to the archive.\n\n\n\n\n\n\nImportant\n\n\n\nNeed Help?\nIf you encounter issues, contact Dongmin (Dennis) Kim at kimx3725@umn.edu or, for technical issues, Movebank support at support@movebank.org."
+  },
+  {
+    "objectID": "submission_guide.html#option-b-list-your-dataset-without-uploading-to-movebank",
+    "href": "submission_guide.html#option-b-list-your-dataset-without-uploading-to-movebank",
+    "title": "Submission Guide",
+    "section": "Option B: List Your Dataset Without Uploading to Movebank",
+    "text": "Option B: List Your Dataset Without Uploading to Movebank\nThis option is intended for contributors who prefer not to upload location data to Movebank or whose data are already available through another public or restricted-access repository.\n\nB1. Prepare study-level information\nEnsure that you can provide complete study-level data in accordance with the archive’s data standards.\n\n\nB2. Contact the MDA Curator\nContact the Move Disease Archive curator kimx3725@umn.edu to provide study-level information using the archive’s data template. Datasets may be publicly listed through an external repository or described without public data access, depending on your preferences and permissions.\n\n\nB3. Specify data access and permission\nIndicate how potential collaborators may request access to your data and any restrictions or conditions associated with its use.\n\n\nB4. Complete the participation agreement and submission form\nAll contributors must complete the participation agreement to be listed in the archive."
+  },
+  {
+    "objectID": "participation_agreement.html",
+    "href": "participation_agreement.html",
+    "title": "Move Disease Archive",
+    "section": "",
+    "text": "Loading…"
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "Frequently Asked Questions",
+    "section": "",
+    "text": "Visit our Submission Guide for submitting your data to the archive."
+  },
+  {
+    "objectID": "faq.html#how-do-i-get-started",
+    "href": "faq.html#how-do-i-get-started",
+    "title": "Frequently Asked Questions",
+    "section": "",
+    "text": "Visit our Submission Guide for submitting your data to the archive."
+  },
+  {
+    "objectID": "faq.html#my-data-are-already-in-a-repository.-can-i-deposit-them-in-mda-as-well",
+    "href": "faq.html#my-data-are-already-in-a-repository.-can-i-deposit-them-in-mda-as-well",
+    "title": "Frequently Asked Questions",
+    "section": "My data are already in a repository. Can I deposit them in MDA as well?",
+    "text": "My data are already in a repository. Can I deposit them in MDA as well?\nYes! Data can be deposited in multiple places."
+  },
+  {
+    "objectID": "faq.html#do-i-have-to-make-my-data-public",
+    "href": "faq.html#do-i-have-to-make-my-data-public",
+    "title": "Frequently Asked Questions",
+    "section": "Do I have to make my data public?",
+    "text": "Do I have to make my data public?\nNot at all! The archive accommodates both open and restricted data. You can contribute information from active studies, sensitive species records, or datasets that require formal sharing agreements. While we recommend making finalized data publicly available when it makes sense, you choose the timing and level of access for your submissions."
+  },
+  {
+    "objectID": "faq.html#how-are-data-accessed-and-shared",
+    "href": "faq.html#how-are-data-accessed-and-shared",
+    "title": "Frequently Asked Questions",
+    "section": "How are data accessed and shared?",
+    "text": "How are data accessed and shared?\nData owners are never required to share their data. When the data are public, users must accept MDA’s terms of use and are encouraged to contact the owners to explore potential collaboration. For data that remains private, owners decide whether to take part in specific projects and may request formal data-sharing agreements. Decisions about attribution and co-authorship are always handled directly between data owners and users on a case-by-case basis."
+  },
+  {
+    "objectID": "faq.html#what-privacy-options-does-mda-offer",
+    "href": "faq.html#what-privacy-options-does-mda-offer",
+    "title": "Frequently Asked Questions",
+    "section": "What privacy options does MDA offer?",
+    "text": "What privacy options does MDA offer?\nMDA provides multiple levels of data permissions. Examples include:\n-Public summary only: Study information is publicly visible, but no location data is shared.\n-Public tracks: Animal movements can be viewed on maps, though downloads are not permitted.\n-Public data: Full data can be downloaded publicly once users accept the terms of use.\n-Future public data: You may set an embargo period (up to 10 years) before the data becomes publicly accessible."
+  },
+  {
+    "objectID": "data_req.html",
+    "href": "data_req.html",
+    "title": "Data Standard",
+    "section": "",
+    "text": "The archive accepts datasets from wildlife systems with confirmed or suspected disease presence, including during outbreaks.\n\n\n\n\n\n\n\n\n\nData type\nExamples\n\n\n\n\nMovement data (Occasional detection data and radio telemetry are also acceptable)\nGPS, accelerometer, GLS, MOTUS, radio telemetry\n\n\nDiagnostic test data (Sample availability / dates of testing)\nPCR, serology, culture results\n\n\nMortality information (optional)\nCause of death, carcass recovery details\n\n\nAdditional sensor data (if available)\nTemperature loggers, heart rate\n\n\n\n\n\n\n\n\n\nTipNote:\n\n\n\nDatasets from individuals suspected to be exposed to disease are also welcome, even if infection data are incomplete."
+  },
+  {
+    "objectID": "data_req.html#what-types-of-data-can-be-contributed",
+    "href": "data_req.html#what-types-of-data-can-be-contributed",
+    "title": "Data Standard",
+    "section": "",
+    "text": "The archive accepts datasets from wildlife systems with confirmed or suspected disease presence, including during outbreaks.\n\n\n\n\n\n\n\n\n\nData type\nExamples\n\n\n\n\nMovement data (Occasional detection data and radio telemetry are also acceptable)\nGPS, accelerometer, GLS, MOTUS, radio telemetry\n\n\nDiagnostic test data (Sample availability / dates of testing)\nPCR, serology, culture results\n\n\nMortality information (optional)\nCause of death, carcass recovery details\n\n\nAdditional sensor data (if available)\nTemperature loggers, heart rate\n\n\n\n\n\n\n\n\n\nTipNote:\n\n\n\nDatasets from individuals suspected to be exposed to disease are also welcome, even if infection data are incomplete."
+  },
+  {
+    "objectID": "data_req.html#data-standard-for-wildlife-infectious-disease-studies",
+    "href": "data_req.html#data-standard-for-wildlife-infectious-disease-studies",
+    "title": "Data Standard",
+    "section": "Data standard for wildlife infectious disease studies",
+    "text": "Data standard for wildlife infectious disease studies\nTo ensure that datasets in the MDA are comparable for disease-focused research, all contributed studies must provide the following required metadata fields. These variables represent the minimum data standard for wildlife infectious disease studies and align with the guidelines described in Schwantes et al. (2025).\n\n\n\n\n\n\nTipFor more detils, see:\n\n\n\n\nA minimum data standard for wildlife disease research and surveillance\nData standard template as csv\n\n\n\n\nRequired diagnostic metadata fields\n\n\n\n\n\n\nImportant\n\n\n\nDetection outcome is required for all records and represents the categorical result of a diagnostic test (positive, negative, or inconclusive if the test was unavailable). Quantitative diagnostic outputs such as PCR Ct values and parasite counts may be reported using optional detection measurement fields. When quantitative values are provided, associated units and relevant methodological context should also be included to ensure interpretability and reuse. Datasets without explicit infection results but collected in known outbreak areas are also valuable and welcome (you can fill out some of the columns with “NA”).\n\n\n\n\n\n\n\n\n\n\n\n\n\nVariable\nType\nDescription\nExample\nRequired?\n\n\n\n\nSample ID\nString\nA user-generated, unique ID for the sample.\nOS BZ19-114\nRequired\n\n\nAnimal ID\nString\nA user-generated unique ID for the individual animal from which the sample was collected.\nBZ19-114 to indicate animal ID 114 sampled in 2019 in Belize\nRequired\n\n\nAnimal Taxon\nString\nAnimal taxonomy.\nLynx rufus\nRequired\n\n\nFirst deployment\nString\nFirst deployment date.\nYYYYMMDD\nRequired\n\n\nLatest deployment\nString\nLatest deployment date.\nYYYYMMDD\nRequired\n\n\nSensor type\nString\nSensor type used to tag the animals.\nGPS\nRequired\n\n\nHost ID\nString\nThe Linnaean classification of the animal from which the sample was collected.\nDesmodus rotundus\nRequired\n\n\nPathogen ID\nString\nThe identity of a parasite detected by the diagnostic test.\nAlphacoronavirus\nRequired\n\n\nSample collection method\nString\nThe technique used to acquire the sample and/or the tissue from which the sample was acquired.\nSwab\nRequired\n\n\nSample material\nString\nOrganic tissue or fluid being collected (e.g., liver, blood, skin, whole organism).\nBlood\nOptional\n\n\nSample collection date\nString\nThe date when the sample was collected.\nYYYYMMDD\nRequired\n\n\nDetection target\nString\nThe taxonomic identity of the pathogen being screened for in the sample.\nCoronaviridae\nRequired\n\n\nDetection method\nString\nThe type of diagnostic test performed to detect the pathogen.\nSemi-nested PCR\nRequired\n\n\nDetection outcome\nString\nCategorical outcome of the diagnostic test.\nPositive / Negative / Inconclusive\nRequired\n\n\nDetection measurement\nNumber\nA numeric measurement associated with pathogen detection that provides more detail than presence/absence.\n27.4 (e.g., PCR Ct value)\nOptional\n\n\nDetection measurement units\nString\nUnits associated with the detection measurement.\nCt\nOptional (Required if detection measurement is provided)\n\n\nDetection measurement method details\nString\nAdditional details needed to interpret the quantitative measurement.\nqPCR, Ct threshold = 35\nOptional\n\n\nDetection measurement interpretation\nString\nGuidance on how the quantitative value should be interpreted in context.\nCt &lt; 35 considered positive\nOptional\n\n\nDetection limit\nNumber\nThe lowest value at which the assay reliably detects the pathogen.\n35\nOptional\n\n\nDetection limit units\nString\nUnits associated with the limit of detection.\nCt\nOptional\n\n\n\n\n\n\n\n\n\n\nTipExamples:\n\n\n\nYou can find examples in the Studies."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Move Disease Archive",
+    "section": "",
+    "text": "The Move Disease Archive (MDA) is a global collection of eco-epidemiological datasets that integrate animal movement and other animal-borne sensor data with diagnostic information (e.g., swabs, blood samples) from infected and susceptible wildlife. The archive serves as a resource for researchers seeking to understand how pathogens influence animal behavior, infection spread, and the risk of spillover to domestic animals and humans.\nAs of November 2025, the MDA is being developed in collaboration with Movebank, the Move Biodiversity Observation Network (Move BON), Euromammals, and Verena Institute to support long-term FAIR (Findable, Accessible, Interoperable, Reusable) data stewardship for wildlife health and disease surveillance (Wilkinson et al. 2016)."
+  },
+  {
+    "objectID": "index.html#why-a-disease-archive-for-animal-movement",
+    "href": "index.html#why-a-disease-archive-for-animal-movement",
+    "title": "Move Disease Archive",
+    "section": "Why a Disease Archive for Animal Movement?",
+    "text": "Why a Disease Archive for Animal Movement?\nWildlife plays an important role in the emergence and spread of infectious diseases, both as hosts and as sources of zoonotic pathogens that threaten human and livestock health. Climate change and shifting species distributions further intensify these risks by altering contact and movement patterns and reshaping pathogen dynamics across ecosystems. Understanding disease dynamics in wildlife populations is crucial for conservation and for reducing the risk of pathogen spillover to livestock and people. However, detecting and monitoring infections in free-ranging animals remains a challenge. Traditional sampling offers only snapshots in time and often misses key stages of infection. Because pathogens can alter host movement, space use, and activity patterns, a collection of infected animal movement data provides a promising tool for disease surveillance. The MDA supports a transferable approach to real-time monitoring of infection in free-ranging wildlife by linking animal movement data and disease-related data such as diagnostic test results and mortality records. The MDA brings together movement ecologists, disease ecologists, and veterinarians to build an early-warning system for wildlife health and support research at the interface of movement and disease ecology."
+  },
+  {
+    "objectID": "index.html#goals-of-the-mda",
+    "href": "index.html#goals-of-the-mda",
+    "title": "Move Disease Archive",
+    "section": "Goals of the MDA",
+    "text": "Goals of the MDA\nThe MDA aims to:\n-Create a global platform: Manage, share, and archive animal movement datasets that include disease information, diagnostic test results, and mortality outcomes.\n-Provide data standards and submission guidance: Develop a compatible reporting framework to help data owners include the information needed for disease-focused research.\n-Facilitate collaboration and data discovery: Enable researchers to identify datasets, connect with data owners, and advance work on infection-driven behavioral change, pathogen transmission, and wildlife health monitoring through biologging methods."
+  },
+  {
+    "objectID": "index.html#how-to-participate",
+    "href": "index.html#how-to-participate",
+    "title": "Move Disease Archive",
+    "section": "How to participate",
+    "text": "How to participate\nRead below to find out how you can contribute to the MDA by participating in datasets or initiating new collaborations and beneficial uses of the data.\n\nData owners\nIf you would like to contribute your eco-epidemiological data to the MDA, we strongly prefer that you share them through Movebank or another animal tracking data repository. This will make the MDA more widely accessible and facilitate data quality control and processing. For assistance organizing your data on Movebank, contact support@movebank.org and kimx3725@umn.edu. If you are not able to store data on Movebank or another repository, please contact us. In addition to organizing data within Movebank or a similar repository, participation requires:\n-Studies remain publicly discoverable, and owners are open to considering collaboration requests. They do not need to be publicly downloadable.\n-Data meet basic quality standards, including accurate formatting and sufficient metadata (See our data standards and Submission Guide).\n-Owner contact information remains up to date, particularly for studies that are not publicly accessible.\nOnce your data are ready, please complete the MDA Participation Agreement, after which your study will be reviewed and added to the list of participating projects.\n\n\nData users\nThe MDA facilitates access to global eco-epidemiological datasets that pair animal movement with diagnostic information from infected and susceptible wildlife. These resources support research on how pathogens influence animal behavior, infection dynamics, and potential spillover risks to domestic animals and humans. The MDA does not redistribute raw disease or animal-tracking data. All datasets remain under the control of the original data providers, and the MDA functions as a discovery and access platform. Researchers are directed to data owners and must comply with their licensing and ethical requirements prior to use.\nThe archive is designed to support a wide range of beneficial uses, including:\n-Studies of infection-driven behavioral change\n-Improved understanding of pathogen transmission and spread\n-Wildlife health monitoring through biologging\n-Eco-epidemiological modeling\n-Conservation and management of disease-affected species\n-Education and public engagement\nAs with all Movebank-hosted data, the MDA includes both public and controlled-access studies. We strongly encourage users to contact data owners about proposed uses, as they can offer critical ecological and diagnostic context. Please also review Movebank’s terms of use and user agreement. For help with data-sharing requests, contact kimx3725@umn.edu."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Move Disease Archive",
+    "section": "Contact",
+    "text": "Contact\n\n\n\n\n\n\nNoteContact Information\n\n\n\nMoveDiseaseArchive PI and data curator: Dongmin (Dennis) Kim\nOrganization: University of Minnesota & Harvard University\nEmail: kimx3725@umn.edu\nMoveDiseaseArchive PI: Kevin Morelle\nOrganization: Max Planck Institute of Animal Behavior & Minuartia\nEmail: kmorelle@ab.mpg.de\nMovebank data curator: Sarah Davidson\nOrganization: Max Planck Institute of Animal Behavior\nEmail: sdavidson@ab.mpg.de\nContributor: Claire Teitelbum\nOrganization: Georgia Cooperative Fish and Wildlife Research Unit\nEmail: cteitelbaum@uga.edu\nContributor: Collin Schwantes\nOrganization: Verena Institute, Yale University\nEmail: collin.schwantes@yale.edu\nContributor: Francesca Cagnacci\nOrganization: Fondazione Edmund Mach & National Biodiversity Future Centre\nEmail: francesca.cagnacci@fmach.it\nContributor: Marta Valldeperes Falgueras\nOrganization: University of Georgia\nEmail: marta.valldeperes@uga.edu\nContributor: Will Rogers\nOrganization: Yale University\nEmail: will.rogers@yale.edu\nFor technical assistance with Movebank: support@movebank.org"
+  },
+  {
+    "objectID": "studies.html",
+    "href": "studies.html",
+    "title": "Participating Studies & Data Standards",
+    "section": "",
+    "text": "This initiative began in the winter of 2025. If you would like your study to be included in the archive, checkout our Submission Guide or contact us (kimx3725@umn.edu)."
+  },
+  {
+    "objectID": "studies.html#section-a-movebank-derived-movement-data",
+    "href": "studies.html#section-a-movebank-derived-movement-data",
+    "title": "Participating Studies & Data Standards",
+    "section": "Section A: Movebank-derived Movement Data",
+    "text": "Section A: Movebank-derived Movement Data\nThis table is a placeholder for studies derived from Movebank. Columns match the archive data standard, currently empty."
+  },
+  {
+    "objectID": "studies.html#section-b-private-data-contact-required-external-repository-data",
+    "href": "studies.html#section-b-private-data-contact-required-external-repository-data",
+    "title": "Participating Studies & Data Standards",
+    "section": "Section B: Private Data (Contact Required) & External Repository Data",
+    "text": "Section B: Private Data (Contact Required) & External Repository Data\nThis table serves as a placeholder for studies that fall into one of the following categories:\n\nPrivate datasets: Studies that cannot be stored on Movebank due to legal, ethical, or institutional constraints, but still provide descriptive information about their datasets and contact details.\nExternal repository datasets: Studies that are already shared in other public repositories outside of Movebank."
+  }
+]
