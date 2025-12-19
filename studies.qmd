@@ -13,7 +13,9 @@ This initiative began in the winter of 2025. If you would like your study to be 
 
 ## Section A: Movebank-derived Movement Data
 
+::: callout-tip
 This table is a placeholder for studies derived from Movebank. Columns match the archive data standard, currently empty.
+:::
 
 ```{r section A, include=FALSE}
 library(DT)
@@ -66,11 +68,13 @@ style = "caption-side: bottom; text-align: left;",
 
 ## Section B: Private Data (Contact Required) \& External Repository Data
 
+::: callout-tip
 This table serves as a placeholder for studies that fall into one of the following categories:
 
 - **Private datasets**: Studies that cannot be stored on Movebank due to legal, ethical, or institutional constraints, but still provide descriptive information about their datasets and contact details.
 
 - **External repository datasets**: Studies that are already shared in other public repositories outside of Movebank.
+:::
 
 ```{r Section B, include=FALSE}
 # Create empty table for Section B with same columns

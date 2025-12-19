@@ -53,8 +53,6 @@ Once your study is complete, add the **“MoveDiseaseArchive”** user as a coll
 Complete the [participation agreement](participation_agreement.qmd) form to formally submit your study to the archive.
 
 ::: callout-important
-**Need Help?**
-
 If you encounter issues, contact Dongmin (Dennis) Kim at
 [kimx3725\@umn.edu](mailto:kimx3725@umn.edu) or, for technical issues,
 Movebank support at
