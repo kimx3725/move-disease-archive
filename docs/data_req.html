@@ -339,69 +339,76 @@ Important
 <td>Optional</td>
 </tr>
 <tr class="even">
-<td>Sample collection date</td>
+<td>First sample collection date</td>
 <td>String</td>
-<td>The date when the sample was collected.</td>
+<td>First date when the sample was collected.</td>
 <td>YYYYMMDD</td>
 <td>Required</td>
 </tr>
 <tr class="odd">
+<td>Latest sample collection date</td>
+<td>String</td>
+<td>Latest date when the sample was collected.</td>
+<td>YYYYMMDD</td>
+<td>Required</td>
+</tr>
+<tr class="even">
 <td>Detection target</td>
 <td>String</td>
 <td>The taxonomic identity of the pathogen being screened for in the sample.</td>
 <td>Coronaviridae</td>
 <td>Required</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Detection method</td>
 <td>String</td>
 <td>The type of diagnostic test performed to detect the pathogen.</td>
 <td>Semi-nested PCR</td>
 <td>Required</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Detection outcome</td>
 <td>String</td>
 <td>Categorical outcome of the diagnostic test.</td>
 <td>Positive / Negative / Inconclusive</td>
 <td>Required</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Detection measurement</td>
 <td>Number</td>
 <td>A numeric measurement associated with pathogen detection that provides more detail than presence/absence.</td>
 <td>27.4 (e.g., PCR Ct value)</td>
 <td>Optional</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Detection measurement units</td>
 <td>String</td>
 <td>Units associated with the detection measurement.</td>
 <td>Ct</td>
 <td>Optional (Required if detection measurement is provided)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Detection measurement method details</td>
 <td>String</td>
 <td>Additional details needed to interpret the quantitative measurement.</td>
 <td>qPCR, Ct threshold = 35</td>
 <td>Optional</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Detection measurement interpretation</td>
 <td>String</td>
 <td>Guidance on how the quantitative value should be interpreted in context.</td>
 <td>Ct &lt; 35 considered positive</td>
 <td>Optional</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Detection limit</td>
 <td>Number</td>
 <td>The lowest value at which the assay reliably detects the pathogen.</td>
 <td>35</td>
 <td>Optional</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Detection limit units</td>
 <td>String</td>
 <td>Units associated with the limit of detection.</td>
