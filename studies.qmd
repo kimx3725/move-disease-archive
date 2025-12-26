@@ -30,7 +30,6 @@ data_columns <- c(
   "First deployment",
   "Latest deployment",
   "Sensor type",
-  "Host ID",
   "Pathogen ID",
   "Sample collection method",
   "Sample material",
