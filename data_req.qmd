@@ -59,8 +59,7 @@ Detection outcome is required for all records and represents the categorical res
 | Pathogen ID | String | The identity of a parasite detected by the diagnostic test. | Alphacoronavirus | Required |
 | Sample collection method | String | The technique used to acquire the sample and/or the tissue from which the sample was acquired. | Swab | Required |
 | Sample material | String | Organic tissue or fluid being collected (e.g., liver, blood, skin, whole organism). | Blood | Optional |
-| First sample collection date | String | First date when the sample was collected. | YYYYMMDD | Required |
-| Latest sample collection date | String | Latest date when the sample was collected. | YYYYMMDD | Required |
+| Collection date | String | Date when the samples were collected. | YYYYMMDD | Required |
 | Detection target | String | The taxonomic identity of the pathogen being screened for in the sample. | Coronaviridae | Required |
 | Detection method | String | The type of diagnostic test performed to detect the pathogen. | Semi-nested PCR | Required |
 | Detection outcome | String | Categorical outcome of the diagnostic test. | Positive / Negative / Inconclusive | Required |

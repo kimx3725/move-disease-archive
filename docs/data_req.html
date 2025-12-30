@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-12-26">
+<meta name="dcterms.date" content="2025-12-30">
 
 <title>Data Standard – Move Disease Archive</title>
 <style>
@@ -160,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 26, 2025</p>
+      <p class="date">December 30, 2025</p>
     </div>
   </div>
   
@@ -339,76 +339,69 @@ Important
 <td>Optional</td>
 </tr>
 <tr class="even">
-<td>First sample collection date</td>
+<td>Collection date</td>
 <td>String</td>
-<td>First date when the sample was collected.</td>
+<td>Date when the samples were collected.</td>
 <td>YYYYMMDD</td>
 <td>Required</td>
 </tr>
 <tr class="odd">
-<td>Latest sample collection date</td>
-<td>String</td>
-<td>Latest date when the sample was collected.</td>
-<td>YYYYMMDD</td>
-<td>Required</td>
-</tr>
-<tr class="even">
 <td>Detection target</td>
 <td>String</td>
 <td>The taxonomic identity of the pathogen being screened for in the sample.</td>
 <td>Coronaviridae</td>
 <td>Required</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Detection method</td>
 <td>String</td>
 <td>The type of diagnostic test performed to detect the pathogen.</td>
 <td>Semi-nested PCR</td>
 <td>Required</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Detection outcome</td>
 <td>String</td>
 <td>Categorical outcome of the diagnostic test.</td>
 <td>Positive / Negative / Inconclusive</td>
 <td>Required</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Detection measurement</td>
 <td>Number</td>
 <td>A numeric measurement associated with pathogen detection that provides more detail than presence/absence.</td>
 <td>27.4 (e.g., PCR Ct value)</td>
 <td>Optional</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Detection measurement units</td>
 <td>String</td>
 <td>Units associated with the detection measurement.</td>
 <td>Ct</td>
 <td>Optional (Required if detection measurement is provided)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Detection measurement method details</td>
 <td>String</td>
 <td>Additional details needed to interpret the quantitative measurement.</td>
 <td>qPCR, Ct threshold = 35</td>
 <td>Optional</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Detection measurement interpretation</td>
 <td>String</td>
 <td>Guidance on how the quantitative value should be interpreted in context.</td>
 <td>Ct &lt; 35 considered positive</td>
 <td>Optional</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Detection limit</td>
 <td>Number</td>
 <td>The lowest value at which the assay reliably detects the pathogen.</td>
 <td>35</td>
 <td>Optional</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Detection limit units</td>
 <td>String</td>
 <td>Units associated with the limit of detection.</td>
