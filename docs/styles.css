@@ -1,5 +1,4 @@
-/* css styles */
-
+/* Navbar styles (your existing rules) */
 .navbar-brand img {
   height: 50px !important;
 }
@@ -11,10 +10,18 @@
 }
 
 /* ---- DataTables custom styles ---- */
+
+/* Prevent header wrapping */
 th.dt-head-nowrap {
   white-space: nowrap;
 }
 
+/* Allow table to expand fully */
 .dataTables_wrapper {
   width: 100% !important;
+}
+
+/* Prevent wrapping in specific columns */
+td.nowrap {
+  white-space: nowrap;
 }
