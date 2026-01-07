@@ -78,7 +78,6 @@ new_study <- tibble(
 section_a_table <- bind_rows(section_a_table, new_study)
 ```
 
-# Output chunk
 ```{r section-output-A, echo=FALSE, message=FALSE, warning=FALSE}
 DT::datatable(
 section_a_table,
