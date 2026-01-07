@@ -14,7 +14,7 @@ This initiative began in the winter of 2025. If you would like your study to be 
 ## Section A: Movebank-derived Movement Data
 
 ::: callout-tip
-This table is a placeholder for studies derived from Movebank. Columns match the archive data standard, currently empty.
+This table is a placeholder for studies derived from Movebank. Columns match the archive data standard.
 :::
 
 ```{r section A, include=FALSE}
@@ -84,18 +84,22 @@ section_a_table <- bind_rows(section_a_table, new_study)
 ```
 
 # Output chunk
-```{r section output A, output = TRUE, warning=FALSE}
+```{r section-output-A, echo=FALSE, message=FALSE, warning=FALSE}
 DT::datatable(
-section_a_table,
-options = list(
-pageLength = 10,
-scrollX = TRUE
-),
-caption = htmltools::tags$caption(
-style = "caption-side: bottom; text-align: left;",
-"Section A: Movebank-derived studies."
-),
-escape = FALSE
+  section_a_table,
+  options = list(
+    pageLength = 10,
+    scrollX = TRUE,
+    autoWidth = TRUE,
+    columnDefs = list(
+      list(className = 'dt-head-nowrap', targets = "_all")
+    )
+  ),
+  escape = FALSE,
+  caption = htmltools::tags$caption(
+    style = "caption-side: bottom; text-align: left;",
+    "Section A: Movebank-derived studies"
+  )
 )
 ```
 
@@ -122,7 +126,8 @@ DT::datatable(
 section_b_table,
 options = list(
 pageLength = 10,
-scrollX = TRUE
+scrollX = TRUE,
+autoWidth = TRUE
 ),
 caption = htmltools::tags$caption(
 style = "caption-side: bottom; text-align: left;",

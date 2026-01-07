@@ -4,9 +4,17 @@
   height: 50px !important;
 }
 
-
 .navbar-logo {
-    max-height: 50px;
-    width: auto;
-    padding-right: 4px;
+  max-height: 50px;
+  width: auto;
+  padding-right: 4px;
+}
+
+/* ---- DataTables custom styles ---- */
+th.dt-head-nowrap {
+  white-space: nowrap;
+}
+
+.dataTables_wrapper {
+  width: 100% !important;
 }
