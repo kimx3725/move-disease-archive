@@ -80,21 +80,21 @@ section_a_table <- bind_rows(section_a_table, new_study)
 
 ```{r section-output-A, echo=FALSE, message=FALSE, warning=FALSE}
 DT::datatable(
-section_a_table,
-escape = FALSE,
-options = list(
-pageLength = 10,
-scrollX = TRUE,
-autoWidth = TRUE,
-columnDefs = list(
-list(className = 'dt-head-nowrap', targets = "_all"),
-list(className = 'nowrap', targets = c(0, 7))   # 0 = Study Name, 7 = Pathogen ID
-)
-),
-caption = htmltools::tags$caption(
-style = "caption-side: bottom; text-align: left;",
-"Section A: Movebank-derived studies"
-)
+  section_a_table,
+  escape = FALSE,
+  options = list(
+    pageLength = 10,
+    scrollX = TRUE,
+    autoWidth = TRUE,
+    columnDefs = list(
+      list(className = 'dt-head-nowrap', targets = "_all"),
+      list(className = 'dt-nowrap', targets = "_all")   # Force no wrapping on all cells
+    )
+  ),
+  caption = htmltools::tags$caption(
+    style = "caption-side: bottom; text-align: left;",
+    "Section A: Movebank-derived studies"
+  )
 )
 ```
 
@@ -110,7 +110,6 @@ This table serves as a placeholder for studies that fall into one of the followi
 
 ```{r Section B, include=FALSE}
 # Create empty table for Section B with same columns
-
 section_b_table <- tibble::tibble(
 !!!setNames(rep(list(character()), length(data_columns)), data_columns)
 )
@@ -118,15 +117,19 @@ section_b_table <- tibble::tibble(
 
 ```{r section B output, output=TRUE, warning=FALSE}
 DT::datatable(
-section_b_table,
-options = list(
-pageLength = 10,
-scrollX = TRUE,
-autoWidth = TRUE
-),
-caption = htmltools::tags$caption(
-style = "caption-side: bottom; text-align: left;",
-"Section B: Private Data and External Repository Data (empty template)."
-)
+  section_b_table,
+  options = list(
+    pageLength = 10,
+    scrollX = TRUE,
+    autoWidth = TRUE,
+    columnDefs = list(
+      list(className = 'dt-head-nowrap', targets = "_all"),
+      list(className = 'dt-nowrap', targets = "_all")   # Force single-line
+    )
+  ),
+  caption = htmltools::tags$caption(
+    style = "caption-side: bottom; text-align: left;",
+    "Section B: Private Data and External Repository Data (empty template)."
+  )
 )
 ```
