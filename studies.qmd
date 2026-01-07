@@ -93,8 +93,9 @@ scrollX = TRUE
 ),
 caption = htmltools::tags$caption(
 style = "caption-side: bottom; text-align: left;",
-"Section A: Movebank-derived studies (currently empty placeholder)."
-)
+"Section A: Movebank-derived studies."
+),
+escape = FALSE
 )
 ```
 
