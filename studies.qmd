@@ -22,6 +22,7 @@ This table is a placeholder for studies derived from Movebank. Columns match the
 library(DT)
 library(dplyr)
 library(tibble)
+library(readr)
 
 data_columns <- c(
 "Study Name",
@@ -47,35 +48,43 @@ data_columns <- c(
 "Detection limit units"
 )
 
-section_a_table <- tibble(
-!!!setNames(rep(list(character()), length(data_columns)), data_columns)
-)
-
-new_study <- tibble(
-"Study Name" = '<a href="https://doi.org/10.5441/001/1.323" target="_blank">Bobcat; Central California, USA</a>',
-"Principal Investigator" = '<a href="mailto:lekserieys@gmail.com">Laurel Serieys</a>',
-"Animal Taxon" = "Lynx rufus",
-"No. of Animals" = "3",
-"First deployment" = "2017/07/14",
-"Latest deployment" = "2018/12/28",
-"Sensor type" = "GPS",
-"Pathogen ID" = "Notoedric mange (Notoedres cati)",
-"Sample collection method" = NA,
-"Sample material" = NA,
-"First sample collection date" = "2018/02/25",
-"Latest sample collection date" = "2018/12/28",
-"Detection target" = NA,
-"Detection method" = "Visual",
-"Detection outcome" = "Dead/Rehabilitated",
-"Detection measurement" = NA,
-"Detection measurement units" = NA,
-"Detection measurement method details" = NA,
-"Detection measurement interpretation" = NA,
-"Detection limit" = NA,
-"Detection limit units" = NA
-)
-
-section_a_table <- bind_rows(section_a_table, new_study)
+section_a_table <- read_csv(
+  "data/master_a.csv",
+  show_col_types = FALSE
+) %>%
+  mutate(
+    `Study Name` = sprintf(
+      '<a href="%s" target="_blank">%s</a>',
+      `Study URL`, `Study Name`
+    ),
+    `Principal Investigator` = sprintf(
+      '<a href="mailto:%s">%s</a>',
+      `PI Email`, `Principal Investigator`
+    )
+  ) %>%
+  select(
+    `Study Name`,
+    `Principal Investigator`,
+    `Animal Taxon`,
+    `No. of Animals`,
+    `First deployment`,
+    `Latest deployment`,
+    `Sensor type`,
+    `Pathogen ID`,
+    `Sample collection method`,
+    `Sample material`,
+    `First sample collection date`,
+    `Latest sample collection date`,
+    `Detection target`,
+    `Detection method`,
+    `Detection outcome`,
+    `Detection measurement`,
+    `Detection measurement units`,
+    `Detection measurement method details`,
+    `Detection measurement interpretation`,
+    `Detection limit`,
+    `Detection limit units`
+  )
 ```
 
 ```{r section-output-A, echo=FALSE, message=FALSE, warning=FALSE}
