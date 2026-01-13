@@ -60,7 +60,7 @@ Detection outcome is required for all records and represents the categorical res
 | Sample collection method | String | The technique used to acquire the sample and/or the tissue from which the sample was acquired. | Swab | Required |
 | Sample material | String | Organic tissue or fluid or feces being collected (e.g., liver, blood, skin, whole organism, stool). | Blood | Optional |
 | Sample collection date | String | Date when the samples were collected. | YYYYMMDD | Required |
-| Sample collection status| String | Animal's mortality when the samples were collected. | Alive or Dead | Required |
+| Sample collection status| String | The Animal's mortality status when the samples were collected. | Alive or Dead | Required |
 | Detection target | String | The taxonomic identity of the pathogen being screened for in the sample. | Coronaviridae | Required |
 | Detection method | String | The type of diagnostic test performed to detect the pathogen. | Semi-nested PCR | Required |
 | Detection outcome | String | Categorical outcome of the diagnostic test. | Positive / Negative / Inconclusive | Required |
