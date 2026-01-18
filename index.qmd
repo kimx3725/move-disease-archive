@@ -88,3 +88,7 @@ As with all Movebank-hosted data, the MDA includes both public and controlled-ac
 
 **For technical assistance with Movebank:** [support\@movebank.org](mailto:support@movebank.org)
 :::
+
+## Partners
+
+![](images/MDA_partners.png){fig-align="center" width="2000"}
