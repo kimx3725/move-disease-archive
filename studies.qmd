@@ -15,7 +15,7 @@ This initiative began in the winter of 2025. If you would like your study to be 
 ## Section A: Movebank-derived Movement Data
 
 ::: callout-tip
-This table is a placeholder for studies derived from Movebank. Columns match the archive data standard.
+This table is a placeholder for studies derived from Movebank. Columns match the archive data standard. An asterisk (*) in the study name indicates datasets that were not sampled or tested for disease but involved animals found dead or alive during confirmed outbreaks in the region.
 :::
 
 ```{r section A, include=FALSE}
@@ -104,7 +104,7 @@ DT::datatable(
   ),
   caption = htmltools::tags$caption(
     style = "caption-side: bottom; text-align: left;",
-    "Section A: Movebank-derived studies"
+    "Section A: Movebank-derived studies. An asterisk (*) in the study name indicates datasets that were not sampled or tested for disease but involved animals found dead or alive during confirmed outbreaks in the region."
   )
 )
 ```
@@ -176,7 +176,7 @@ DT::datatable(
   ),
   caption = htmltools::tags$caption(
     style = "caption-side: bottom; text-align: left;",
-    "Section B: Private Data and External Repository Data."
+    "Section B: Private Data and External Repository Data. An asterisk (*) in the study name indicates datasets that were not sampled or tested for disease but involved animals found dead or alive during confirmed outbreaks in the region."
   )
 )
 ```
