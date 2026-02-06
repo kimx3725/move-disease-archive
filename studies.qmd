@@ -10,12 +10,16 @@ format:
     css: styles.css
 ---
 
-This initiative began in the winter of 2025. If you would like your study to be included in the archive, checkout our [Submission Guide](submission_guide.qmd) or contact us ([kimx3725\@umn.edu](mailto:kimx3725@umn.edu)). 
+If you would like your study to be included in the archive, checkout our [Submission Guide](submission_guide.qmd) or contact us ([kimx3725\@umn.edu](mailto:kimx3725@umn.edu)).
+
+::: callout-important
+An asterisk (*) in the study name indicates datasets that were not sampled or tested for disease but involved animals found dead or alive during confirmed outbreaks in the region.
+:::
 
 ## Section A: Movebank-derived Movement Data
 
 ::: callout-tip
-This table is a placeholder for studies derived from Movebank. Columns match the archive data standard. An asterisk (*) in the study name indicates datasets that were not sampled or tested for disease but involved animals found dead or alive during confirmed outbreaks in the region.
+This table is a placeholder for studies derived from Movebank. Columns match the archive data standard.
 :::
 
 ```{r section A, include=FALSE}
@@ -29,11 +33,11 @@ data_columns <- c(
 "Principal Investigator",
 "Animal Taxon",
 "No. of Animals",
+"Pathogen ID",
 "Further Disease Information",
 "First deployment",
 "Latest deployment",
 "Sensor type",
-"Pathogen ID",
 "Sample collection method",
 "Sample material",
 "Sample collection status",
@@ -69,11 +73,11 @@ section_a_table <- read_csv(
     `Principal Investigator`,
     `Animal Taxon`,
     `No. of Animals`,
+    `Pathogen ID`,
     `Further Disease Information`,
     `First deployment`,
     `Latest deployment`,
     `Sensor type`,
-    `Pathogen ID`,
     `Sample collection method`,
     `Sample material`,
     `Sample collection status`, 
@@ -106,7 +110,7 @@ DT::datatable(
   ),
   caption = htmltools::tags$caption(
     style = "caption-side: bottom; text-align: left;",
-    "Section A: Movebank-derived studies. An asterisk (*) in the study name indicates datasets that were not sampled or tested for disease but involved animals found dead or alive during confirmed outbreaks in the region."
+    "Section A: Movebank-derived studies."
   )
 )
 ```
@@ -142,11 +146,11 @@ section_b_table <- read_csv(
     `Principal Investigator`,
     `Animal Taxon`,
     `No. of Animals`,
+    `Pathogen ID`,
     `Further Disease Information`,
     `First deployment`,
     `Latest deployment`,
     `Sensor type`,
-    `Pathogen ID`,
     `Sample collection method`,
     `Sample material`,
     `Sample collection status`, 
@@ -179,7 +183,7 @@ DT::datatable(
   ),
   caption = htmltools::tags$caption(
     style = "caption-side: bottom; text-align: left;",
-    "Section B: Private Data and External Repository Data. An asterisk (*) in the study name indicates datasets that were not sampled or tested for disease but involved animals found dead or alive during confirmed outbreaks in the region."
+    "Section B: Private Data and External Repository Data."
   )
 )
 ```
