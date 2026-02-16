@@ -18,6 +18,8 @@ website:
         text: Submission Guide
       - href: data_req.qmd
         text: Data Standard
+      - href: study_submission.qmd
+        text: Study Submission
       - href: participation_agreement.qmd
         text: Participation Agreement
       - href: faq.qmd

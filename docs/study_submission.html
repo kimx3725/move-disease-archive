@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-02-16">
 
-<title>Data Standard – Move Disease Archive</title>
+<title>study_submission – Move Disease Archive</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -106,11 +105,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Submission Guide</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./data_req.html" aria-current="page"> 
+    <a class="nav-link" href="./data_req.html"> 
 <span class="menu-text">Data Standard</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./study_submission.html"> 
+    <a class="nav-link active" href="./study_submission.html" aria-current="page"> 
 <span class="menu-text">Study Submission</span></a>
   </li>  
   <li class="nav-item">
@@ -132,320 +131,20 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#what-types-of-data-can-be-contributed" id="toc-what-types-of-data-can-be-contributed" class="nav-link active" data-scroll-target="#what-types-of-data-can-be-contributed">What types of data can be contributed?</a>
-  <ul class="collapse">
-  <li><a href="#minimum-recommended-data-components-are" id="toc-minimum-recommended-data-components-are" class="nav-link" data-scroll-target="#minimum-recommended-data-components-are">Minimum recommended data components are:</a></li>
-  </ul></li>
-  <li><a href="#data-standard-for-wildlife-infectious-disease-studies" id="toc-data-standard-for-wildlife-infectious-disease-studies" class="nav-link" data-scroll-target="#data-standard-for-wildlife-infectious-disease-studies">Data standard for wildlife infectious disease studies</a>
-  <ul class="collapse">
-  <li><a href="#required-diagnostic-metadata-fields" id="toc-required-diagnostic-metadata-fields" class="nav-link" data-scroll-target="#required-diagnostic-metadata-fields">Required diagnostic metadata fields</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Data Standard</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 16, 2026</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="what-types-of-data-can-be-contributed" class="level2">
-<h2 class="anchored" data-anchor-id="what-types-of-data-can-be-contributed">What types of data can be contributed?</h2>
-<p>The archive accepts datasets from wildlife systems with confirmed or suspected disease presence, including during outbreaks.</p>
-<section id="minimum-recommended-data-components-are" class="level3">
-<h3 class="anchored" data-anchor-id="minimum-recommended-data-components-are">Minimum recommended data components are:</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Data type</th>
-<th>Examples</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Movement data</strong> <br>(Occasional detection data and radio telemetry are also acceptable)</td>
-<td>GPS, accelerometer, GLS, MOTUS, radio telemetry</td>
-</tr>
-<tr class="even">
-<td><strong>Diagnostic test data</strong> <br>(Sample availability / dates of testing)</td>
-<td>PCR, serology, culture results</td>
-</tr>
-<tr class="odd">
-<td><strong>Mortality information</strong> <em>(optional)</em></td>
-<td>Cause of death, carcass recovery details</td>
-</tr>
-<tr class="even">
-<td><strong>Additional sensor data</strong> <em>(if available)</em></td>
-<td>Temperature loggers, heart rate</td>
-</tr>
-</tbody>
-</table>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Note:
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Datasets from individuals suspected to be exposed to disease are also welcome, even if infection data are incomplete.</p>
-</div>
-</div>
-</section>
-</section>
-<section id="data-standard-for-wildlife-infectious-disease-studies" class="level2">
-<h2 class="anchored" data-anchor-id="data-standard-for-wildlife-infectious-disease-studies">Data standard for wildlife infectious disease studies</h2>
-<p>To ensure that datasets in the MDA are comparable for disease-focused research, all contributed studies must provide the following required metadata fields. These variables represent the minimum data standard for wildlife infectious disease studies and align with the guidelines described in <a href="https://doi.org/10.1038/s41597-025-05332-x">Schwantes et al.&nbsp;(2025)</a>.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>For more detils, see:
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li><a href="https://www.nature.com/articles/s41597-025-05332-x"><strong>A minimum data standard for wildlife disease research and surveillance</strong></a></li>
-<li><a href="downloadables/movedisease_reference_data_template.csv"><strong>Data standard template as csv</strong></a></li>
-</ul>
-</div>
-</div>
-<section id="required-diagnostic-metadata-fields" class="level3">
-<h3 class="anchored" data-anchor-id="required-diagnostic-metadata-fields">Required diagnostic metadata fields</h3>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Detection outcome is required for all records and represents the categorical result of a diagnostic test (positive, negative, or inconclusive if the test was unavailable). Quantitative diagnostic outputs such as PCR Ct values and parasite counts may be reported using optional detection measurement fields. When quantitative values are provided, associated units and relevant methodological context should also be included to ensure interpretability and reuse. Datasets without explicit infection results but collected in known outbreak areas are also valuable and welcome (you can fill out some of the columns with “NA”).</p>
-</div>
-</div>
-<div class="table-responsive">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 18%">
-<col style="width: 12%">
-<col style="width: 27%">
-<col style="width: 18%">
-<col style="width: 22%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Variable</th>
-<th>Type</th>
-<th>Description</th>
-<th>Example</th>
-<th>Required?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Sample ID</td>
-<td>String</td>
-<td>A user-generated, unique ID for the sample.</td>
-<td>OS BZ19-114</td>
-<td>Required</td>
-</tr>
-<tr class="even">
-<td>Animal ID</td>
-<td>String</td>
-<td>A user-generated unique ID for the individual animal from which the sample was collected.</td>
-<td>BZ19-114 to indicate animal ID 114 sampled in 2019 in Belize</td>
-<td>Required</td>
-</tr>
-<tr class="odd">
-<td>Animal Taxon</td>
-<td>String</td>
-<td>Animal taxonomy.</td>
-<td><em>Lynx rufus</em></td>
-<td>Required</td>
-</tr>
-<tr class="even">
-<td>Pathogen ID</td>
-<td>String</td>
-<td>The identity of a parasite detected by the diagnostic test.</td>
-<td>Alphacoronavirus</td>
-<td>Required</td>
-</tr>
-<tr class="odd">
-<td>Further Disease Information</td>
-<td>String</td>
-<td>The archive link to the disease data</td>
-<td>repository link or Contact PI</td>
-<td>Optional (if applicable)</td>
-</tr>
-<tr class="even">
-<td>First deployment</td>
-<td>String</td>
-<td>First deployment date.</td>
-<td>YYYYMMDD</td>
-<td>Required</td>
-</tr>
-<tr class="odd">
-<td>Latest deployment</td>
-<td>String</td>
-<td>Latest deployment date.</td>
-<td>YYYYMMDD</td>
-<td>Required</td>
-</tr>
-<tr class="even">
-<td>Sensor type</td>
-<td>String</td>
-<td>Sensor type used to tag the animals.</td>
-<td>GPS</td>
-<td>Required</td>
-</tr>
-<tr class="odd">
-<td>Sample collection method</td>
-<td>String</td>
-<td>The technique used to acquire the sample and/or the tissue from which the sample was acquired.</td>
-<td>Swab</td>
-<td>Required</td>
-</tr>
-<tr class="even">
-<td>Sample material</td>
-<td>String</td>
-<td>Organic tissue or fluid or feces being collected (e.g., liver, blood, skin, whole organism, stool).</td>
-<td>Blood</td>
-<td>Optional</td>
-</tr>
-<tr class="odd">
-<td>Sample collection status</td>
-<td>String</td>
-<td>The Animal’s mortality status when the samples were collected.</td>
-<td>Alive or Dead</td>
-<td>Required</td>
-</tr>
-<tr class="even">
-<td>Sample collection date</td>
-<td>String</td>
-<td>Date when the samples were collected.</td>
-<td>YYYYMMDD</td>
-<td>Required</td>
-</tr>
-<tr class="odd">
-<td>Detection target</td>
-<td>String</td>
-<td>The taxonomic identity of the pathogen being screened for in the sample.</td>
-<td>Coronaviridae</td>
-<td>Required</td>
-</tr>
-<tr class="even">
-<td>Detection method</td>
-<td>String</td>
-<td>The type of diagnostic test performed to detect the pathogen.</td>
-<td>Semi-nested PCR</td>
-<td>Required</td>
-</tr>
-<tr class="odd">
-<td>Detection outcome</td>
-<td>String</td>
-<td>Categorical outcome of the diagnostic test.</td>
-<td>Positive / Negative / Inconclusive</td>
-<td>Required</td>
-</tr>
-<tr class="even">
-<td>Detection measurement</td>
-<td>Number</td>
-<td>A numeric measurement associated with pathogen detection that provides more detail than presence/absence.</td>
-<td>27.4 (e.g., PCR Ct value)</td>
-<td>Optional</td>
-</tr>
-<tr class="odd">
-<td>Detection measurement units</td>
-<td>String</td>
-<td>Units associated with the detection measurement.</td>
-<td>Ct</td>
-<td>Optional (Required if detection measurement is provided)</td>
-</tr>
-<tr class="even">
-<td>Detection measurement method details</td>
-<td>String</td>
-<td>Additional details needed to interpret the quantitative measurement.</td>
-<td>qPCR, Ct threshold = 35</td>
-<td>Optional</td>
-</tr>
-<tr class="odd">
-<td>Detection measurement interpretation</td>
-<td>String</td>
-<td>Guidance on how the quantitative value should be interpreted in context.</td>
-<td>Ct &lt; 35 considered positive</td>
-<td>Optional</td>
-</tr>
-<tr class="even">
-<td>Detection limit</td>
-<td>Number</td>
-<td>The lowest value at which the assay reliably detects the pathogen.</td>
-<td>35</td>
-<td>Optional</td>
-</tr>
-<tr class="odd">
-<td>Detection limit units</td>
-<td>String</td>
-<td>Units associated with the limit of detection.</td>
-<td>Ct</td>
-<td>Optional</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Examples:
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>You can find examples in the <a href="./studies.html">Studies</a>.</p>
-</div>
+<div class="container-full-width">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScpJMmfV0agQz-e_KZwomyYUnJLrKVgKs3I0-apw8DNdw2utA/viewform?usp=dialog" width="800" height="900" frameborder="0" marginheight="0" marginwidth="0">
+Loading…
+</iframe>
 </div>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
