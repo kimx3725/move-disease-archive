@@ -66,7 +66,7 @@ This option is intended for contributors who prefer not to upload location data 
 Ensure that you can provide complete study-level data in accordance with the archive’s data standards. 
 
 ### B2. Contact the MDA Curator 
-Contact the Move Disease Archive curator [kimx3725\@umn.edu](mailto:kimx3725@umn.edu) to provide study-level information using the archive’s [data template](data_req.qmd). Datasets may be publicly listed through an external repository or described without public data access, depending on your preferences and permissions. 
+Contact the Move Disease Archive curator [kimx3725\@umn.edu](mailto:kimx3725@umn.edu) to provide study-level information using either the archive’s [study submission](study_submission.qmd) or [data template](data_req.qmd). Datasets may be publicly listed through an external repository or described without public data access, depending on your preferences and permissions. 
 
 ### B3. Specify data access and permission 
 Indicate how potential collaborators may request access to your data and any restrictions or conditions associated with its use. 

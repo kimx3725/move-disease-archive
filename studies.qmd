@@ -27,6 +27,7 @@ library(DT)
 library(dplyr)
 library(tibble)
 library(readr)
+library(stringi)
 
 data_columns <- c(
 "Study Name",
@@ -100,7 +101,7 @@ DT::datatable(
   section_a_table,
   escape = FALSE,
   options = list(
-    pageLength = 10,
+    pageLength = 25,
     scrollX = TRUE,
     autoWidth = TRUE,
     columnDefs = list(
@@ -129,6 +130,7 @@ This table serves as a placeholder for studies that fall into one of the followi
 # Create empty table for Section B with same columns
 section_b_table <- read_csv(
   "data/master_b.csv",
+  locale = locale(encoding = "Windows-1252"),
   show_col_types = FALSE
 ) %>%
   mutate(
@@ -173,7 +175,7 @@ DT::datatable(
   section_b_table,
   escape = FALSE,
   options = list(
-    pageLength = 10,
+    pageLength = 25,
     scrollX = TRUE,
     autoWidth = TRUE,
     columnDefs = list(
