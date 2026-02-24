@@ -138,10 +138,23 @@ section_b_table <- read_csv(
       '<a href="%s" target="_blank">%s</a>',
       `Study URL`, `Study Name`
     ),
-    `Principal Investigator` = sprintf(
-      '<a href="mailto:%s">%s</a>',
-      `PI Email`, `Principal Investigator`
-    )
+    `Principal Investigator` = mapply(function(names, emails) {
+
+      name_vec  <- strsplit(names, ";")[[1]] |> trimws()
+      email_vec <- strsplit(emails, ";")[[1]] |> trimws()
+
+      if (length(name_vec) != length(email_vec)) {
+        return(names)
+      }
+
+      links <- sprintf(
+        '<a href="mailto:%s">%s</a>',
+        email_vec, name_vec
+      )
+
+      paste(links, collapse = "<br>")
+
+    }, `Principal Investigator`, `PI Email`, SIMPLIFY = TRUE)
   ) %>%
   select(
     `Study Name`,
