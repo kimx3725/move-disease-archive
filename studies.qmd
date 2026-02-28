@@ -86,6 +86,16 @@ section_a_table <- read_csv(
 
     }, `Principal Investigator`, `PI Email`, SIMPLIFY = TRUE),
 
+    `Animal Taxon` = sapply(`Animal Taxon`, function(taxa) {
+
+      if (is.na(taxa) || taxa == "") return(taxa)
+
+      taxa_vec <- strsplit(taxa, ";")[[1]] |> trimws()
+
+      paste(taxa_vec, collapse = "<br>")
+
+    }),
+
     `Further Disease Information` = ifelse(
       !is.na(`Disease URL`) & `Disease URL` != "",
       sprintf(
