@@ -13,7 +13,9 @@ format:
 If you would like your study to be included in the archive, checkout our [Submission Guide](submission_guide.qmd) or contact us ([kimx3725\@umn.edu](mailto:kimx3725@umn.edu)).
 
 ::: callout-important
-An asterisk (*) in the study name indicates datasets that were not sampled or tested for disease but involved animals found dead or alive during confirmed outbreaks in the region.
+- An asterisk (*) in the study name indicates datasets that were not sampled or tested for disease but involved animals found dead or alive during confirmed outbreaks in the region.
+
+- The tables below provide information only for individuals that tested positive. However, most studies also include data for individuals that tested negative for the pathogens assessed. If you would like more information about negatively tested individuals, please contact the PIs of the study of interest.
 :::
 
 ## Section A: Movebank-derived Movement Data
@@ -57,6 +59,7 @@ data_columns <- c(
 
 section_a_table <- read_csv(
   "data/master_a.csv",
+  locale = locale(encoding = "Windows-1252"),
   show_col_types = FALSE
 ) %>%
   mutate(
@@ -64,9 +67,32 @@ section_a_table <- read_csv(
       '<a href="%s" target="_blank">%s</a>',
       `Study URL`, `Study Name`
     ),
-    `Principal Investigator` = sprintf(
-      '<a href="mailto:%s">%s</a>',
-      `PI Email`, `Principal Investigator`
+    
+    `Principal Investigator` = mapply(function(names, emails) {
+
+      name_vec  <- strsplit(names, ";")[[1]] |> trimws()
+      email_vec <- strsplit(emails, ";")[[1]] |> trimws()
+
+      if (length(name_vec) != length(email_vec)) {
+        return(names)
+      }
+
+      links <- sprintf(
+        '<a href="mailto:%s">%s</a>',
+        email_vec, name_vec
+      )
+
+      paste(links, collapse = "<br>")
+
+    }, `Principal Investigator`, `PI Email`, SIMPLIFY = TRUE),
+
+    `Further Disease Information` = ifelse(
+      !is.na(`Disease URL`) & `Disease URL` != "",
+      sprintf(
+        '<a href="%s" target="_blank">%s</a>',
+        `Disease URL`, `Further Disease Information`
+      ),
+      `Further Disease Information`
     )
   ) %>%
   select(
