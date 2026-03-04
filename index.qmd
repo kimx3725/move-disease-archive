@@ -23,10 +23,10 @@ The MDA aims to:
 
 -**Identify additional data gaps that could be addressed with an integrated data system**: What kinds of pathogen data are not available in current research?
 
+![](images/MDA_flow.png){fig-align="center" width="2000"}
+
 ## How to participate
 Read below to find out how you can contribute to the MDA by participating in datasets or initiating new collaborations and beneficial uses of the data. 
-
-![](images/MDA_flow.png){fig-align="center" width="2000"}
 
 ### Data owners 
 If you would like to contribute your eco-epidemiological data to the MDA, we strongly prefer that you share them through Movebank or another animal tracking data repository. This will make the MDA more widely accessible and facilitate data quality control and processing. For assistance organizing your data on Movebank, contact [support\@movebank.org](mailto:support@movebank.org) and [kimx3725\@umn.edu](mailto:kimx3725@umn.edu). If you are not able to store data on Movebank or another repository,  please contact us. In addition to organizing data within Movebank or a similar repository, participation requires: 
