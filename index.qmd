@@ -86,7 +86,7 @@ As with all Movebank-hosted data, the MDA includes both public and controlled-ac
 
 **Contributor:** Marta Valldeperes Falgueras\
 **Organization:** University of Georgia\
-**Email:** [marta.valldeperes\@uga.edu](mailto:marta.valldeperes@uga.edu)
+**Email:** [marta.valldeperes\@gmail.com](mailto:marta.valldeperes@gmail.com)
 
 **Contributor:** Will Rogers\
 **Organization:** Yale University\
