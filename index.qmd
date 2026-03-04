@@ -13,14 +13,20 @@ Wildlife plays an important role in the emergence and spread of infectious disea
 ## Goals of the MDA
 The MDA aims to: 
 
--**Create a global platform**: Manage, share, and archive animal movement datasets that include disease information, diagnostic test results, and mortality outcomes. 
+-**Build a harmonised database of animal movement and infection data**: Manage, share, and archive animal movement datasets that include disease information, diagnostic test results, and mortality outcomes. 
 
 -**Provide data standards and submission guidance**: Develop a compatible reporting framework to help data owners include the information needed for disease-focused research.
 
+-**Provide oversight for registry database**: Clearly link animal ID and existing movement data (in any platform, MoveBank, etc.) to the health status/disease testing data
+
 -**Facilitate collaboration and data discovery**: Enable researchers to identify datasets, connect with data owners, and advance work on infection-driven behavioral change, pathogen transmission, and wildlife health monitoring through biologging methods.
+
+-**Identify additional data gaps that could be addressed with an integrated data system**: What kinds of pathogen data are not available in current research?
 
 ## How to participate
 Read below to find out how you can contribute to the MDA by participating in datasets or initiating new collaborations and beneficial uses of the data. 
+
+![](images/MDA_flow.png){fig-align="center" width="2000"}
 
 ### Data owners 
 If you would like to contribute your eco-epidemiological data to the MDA, we strongly prefer that you share them through Movebank or another animal tracking data repository. This will make the MDA more widely accessible and facilitate data quality control and processing. For assistance organizing your data on Movebank, contact [support\@movebank.org](mailto:support@movebank.org) and [kimx3725\@umn.edu](mailto:kimx3725@umn.edu). If you are not able to store data on Movebank or another repository,  please contact us. In addition to organizing data within Movebank or a similar repository, participation requires: 
