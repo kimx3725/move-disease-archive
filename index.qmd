@@ -29,7 +29,7 @@ The MDA aims to:
 Read below to find out how you can contribute to the MDA by participating in datasets or initiating new collaborations and beneficial uses of the data. 
 
 ### Data owners 
-If you would like to contribute your eco-epidemiological data to the MDA, we strongly prefer that you share them through Movebank or another animal tracking data repository. This will make the MDA more widely accessible and facilitate data quality control and processing. For assistance organizing your data on Movebank, contact [support\@movebank.org](mailto:support@movebank.org) and [kimx3725\@umn.edu](mailto:kimx3725@umn.edu). If you are not able to store data on Movebank or another repository,  please contact us. In addition to organizing data within Movebank or a similar repository, participation requires: 
+If you would like to contribute your eco-epidemiological data to the MDA, we strongly prefer that you share them through Movebank or another animal tracking data repository. This will make the MDA more widely accessible and facilitate data quality control and processing. For assistance organizing your data on Movebank, contact [support\@movebank.org](mailto:support@movebank.org) and [dongmin.d.kim\@gmail.com](mailto:dongmin.d.kim@gmail.com). If you are not able to store data on Movebank or another repository,  please contact us. In addition to organizing data within Movebank or a similar repository, participation requires: 
 
 -**Studies remain publicly discoverable**, and owners are open to considering collaboration requests. They do not need to be publicly downloadable.
 
@@ -52,7 +52,7 @@ The archive is designed to support a wide range of beneficial uses, including:
 -**Education and public engagement**
 
 ::: callout-important
-As with all Movebank-hosted data, the MDA includes both public and controlled-access studies. We strongly encourage users to contact data owners about proposed uses, as they can offer critical ecological and diagnostic context. Please also review Movebank's [terms of use](https://www.movebank.org/cms/movebank-content/general-movebank-terms-of-use) and [user agreement](https://www.movebank.org/cms/movebank-content/data-policy#user_agreement). For help with data-sharing requests, contact [kimx3725\@umn.edu](mailto:kimx3725@umn.edu). 
+As with all Movebank-hosted data, the MDA includes both public and controlled-access studies. We strongly encourage users to contact data owners about proposed uses, as they can offer critical ecological and diagnostic context. Please also review Movebank's [terms of use](https://www.movebank.org/cms/movebank-content/general-movebank-terms-of-use) and [user agreement](https://www.movebank.org/cms/movebank-content/data-policy#user_agreement). For help with data-sharing requests, contact [dongmin.d.kim\@gmail.com](mailto:dongmin.d.kim@gmail.com). 
 :::
 
 ## Contact
@@ -61,8 +61,8 @@ As with all Movebank-hosted data, the MDA includes both public and controlled-ac
 ## Contact Information
 
 **MoveDiseaseArchive PI and data curator:** Dongmin (Dennis) Kim\
-**Organization:** University of Minnesota \& Harvard University\
-**Email:** [kimx3725\@umn.edu](mailto:kimx3725@umn.edu)
+**Organization:** Smithsonian's National Zoo and Conservation Biology Institute\
+**Email:** [dongmin.d.kim\@gmail.com](mailto:dongmin.d.kim@gmail.com)
 
 **MoveDiseaseArchive PI:** Kevin Morelle\
 **Organization:** Max Planck Institute of Animal Behavior \& Minuartia\

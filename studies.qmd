@@ -10,7 +10,7 @@ format:
     css: styles.css
 ---
 
-If you would like your study to be included in the archive, checkout our [Submission Guide](submission_guide.qmd) or contact us ([kimx3725\@umn.edu](mailto:kimx3725@umn.edu)).
+If you would like your study to be included in the archive, checkout our [Submission Guide](submission_guide.qmd) or contact us ([dongmin.d.kim\@gmail.com](mailto:dongmin.d.kim@gmail.com)).
 
 ::: callout-important
 - An asterisk (*) in the study name indicates datasets that were not sampled or tested for disease but involved animals found dead or alive during confirmed outbreaks in the region.
