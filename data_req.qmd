@@ -51,7 +51,7 @@ Detection outcome is required for all records and represents the categorical res
 | Variable | Data Source (Movement/Pathogen) | Type | Description | Example | Required? |
 |---------|--------|------|-------------|---------|-----------|
 | Study ID | Both | String | Unique identifier(s) for the study represented in the Archive, including the Archive dataset ID and, where applicable, the permanent identifier(s) of the source movement and pathogen repositories. | Bobcat; CA, USA. DOI: …. | Required |
-| PI Name | Both | String | Principal Investigator (PI) name and contact information for the study represented in the Archive. | Name (name@uni.edu) | Required |
+| PI Name | Both | String | Principal Investigator (PI) name and contact information for the study represented in the Archive. | Name (email address) | Required |
 | Sample ID | Both | String | A user-generated ID for the sample. | OS BZ19-114 | Required |
 | Animal ID | Both | String | A user-generated ID for the individual animal from which the sample was collected. Ideally, this could be a universally unique identifier (Poo et al. 2022, Wikelski et al. 2024). It may include the permanent ID of the source repositories, or global biodiversity information facility (GBIF) organism ID | BZ19-114 to indicate animal ID 114 sampled in 2019 in Belize. | Required |
 | Animal Taxon | Both | String | Scientific name of the animal taxon (following Darwin Core standard) | *Lynx rufus* | Required |
