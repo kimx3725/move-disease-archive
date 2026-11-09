@@ -12,6 +12,7 @@ on:
   schedule:
     - cron: "21 0 * * 2"
   workflow_dispatch:
+  
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
