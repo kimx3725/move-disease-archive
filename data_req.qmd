@@ -48,29 +48,31 @@ Detection outcome is required for all records and represents the categorical res
 :::
 
 ::: {.table-responsive}
-| Variable | Type | Description | Example | Required? |
-|---------|------|-------------|---------|-----------|
-| Sample ID | String | A user-generated, unique ID for the sample. | OS BZ19-114 | Required |
-| Animal ID | String | A user-generated unique ID for the individual animal from which the sample was collected. | BZ19-114 to indicate animal ID 114 sampled in 2019 in Belize | Required |
-| Animal Taxon | String | Animal taxonomy. | *Lynx rufus* | Required |
-| Pathogen ID | String | The identity of a parasite detected by the diagnostic test. | Alphacoronavirus | Required |
-| Further Disease Information | String | The archive link to the disease data | repository link or Contact PI | Optional (if applicable) |
-| First deployment | String | First deployment date. | YYYYMMDD | Required |
-| Latest deployment | String | Latest deployment date. | YYYYMMDD | Required |
-| Sensor type | String | Sensor type used to tag the animals. | GPS | Required |
-| Sample collection method | String | The technique used to acquire the sample and/or the tissue from which the sample was acquired. | Swab | Required |
-| Sample material | String | Organic tissue or fluid or feces being collected (e.g., liver, blood, skin, whole organism, stool). | Blood | Optional |
-| Sample collection status| String | The Animal's mortality status when the samples were collected. | Alive or Dead | Required |
-| Sample collection date | String | Date when the samples were collected. | YYYYMMDD | Required |
-| Detection target | String | The taxonomic identity of the pathogen being screened for in the sample. | Coronaviridae | Required |
-| Detection method | String | The type of diagnostic test performed to detect the pathogen. | Semi-nested PCR | Required |
-| Detection outcome | String | Categorical outcome of the diagnostic test. | Positive / Negative / Inconclusive | Required |
-| Detection measurement | Number | A numeric measurement associated with pathogen detection that provides more detail than presence/absence. | 27.4 (e.g., PCR Ct value) | Optional |
-| Detection measurement units | String | Units associated with the detection measurement. | Ct | Optional (Required if detection measurement is provided) |
-| Detection measurement method details | String | Additional details needed to interpret the quantitative measurement. | qPCR, Ct threshold = 35 | Optional |
-| Detection measurement interpretation | String | Guidance on how the quantitative value should be interpreted in context. | Ct &lt; 35 considered positive | Optional |
-| Detection limit | Number | The lowest value at which the assay reliably detects the pathogen. | 35 | Optional |
-| Detection limit units | String | Units associated with the limit of detection. | Ct | Optional |
+| Variable | Data Source (Movement/Pathogen) | Type | Description | Example | Required? |
+|---------|--------|------|-------------|---------|-----------|
+| Study ID | Both | String | Unique identifier(s) for the study represented in the Archive, including the Archive dataset ID and, where applicable, the permanent identifier(s) of the source movement and pathogen repositories. | Bobcat; CA, USA. DOI: …. | Required |
+| PI Name | Both | String | Principal Investigator (PI) name and contact information for the study represented in the Archive. | Name (name@uni.edu) | Required |
+| Sample ID | Both | String | A user-generated ID for the sample. | OS BZ19-114 | Required |
+| Animal ID | Both | String | A user-generated ID for the individual animal from which the sample was collected. Ideally, this could be a universally unique identifier (Poo et al. 2022, Wikelski et al. 2024). It may include the permanent ID of the source repositories, or global biodiversity information facility (GBIF) organism ID | BZ19-114 to indicate animal ID 114 sampled in 2019 in Belize. | Required |
+| Animal Taxon | Both | String | Scientific name of the animal taxon (following Darwin Core standard) | *Lynx rufus* | Required |
+| Start Date | Movement | String | Start date of the available movement data | YYYYMMDD | Required |
+| End Date | Movement | String | End date of the available movement data | YYYYMMDD | Required |
+| Sensor type | Movement | String | Sensor type used to record the animal's location, behaviour, or condition | GPS | Required |
+| Pathogen ID | Both | String | The identity of a pathogen detected by the test. | Alphacoronavirus | Required |
+| Status of the animal | Both | String | Categorical outcome of the individual’s fate | Alive or Dead | Required |
+| Sample collection method | Pathogen | String | The technique used to acquire the sample and/or the tissue from which the sample was acquired. | Swab | Required |
+| Sample material | Pathogen | String | Organic tissue or fluid being collected (e.g., “liver”; “blood”; “skin”; “whole organism”). | Blood | Optional |
+| Sample collection date | Pathogen | String | The date on which the sample was collected | YYYYMMDD | Required |
+| Banked sample status | Pathogen | String | Indicates whether an untested biological sample associated with the individual and sampling occasion is banked | Yes, No, Unknown | Optional |
+| Detection target | Pathogen | String | The taxonomic identity of the pathogen being screened for in the sample. | Coronaviridae | Required |
+| Detection method | Pathogen | String | The type of test performed to detect the pathogens. | Semi-nested PCR | Required |
+| Detection outcome | Pathogen | String | Categorical outcome of the diagnostic test. | Positive, negative, or inconclusive | Required |
+| Detection measurement | Pathogen | Number | A numeric measurement associated with pathogen detection that provides more detail than presence/absence | 27.4 (e.g., PCR Ct value, parasite load, fecal egg count, viral titer, and read count) | Optional |
+| Detection measurement units | Pathogen | String | Units associated with the detection measurement. | Ct | Optional (Required if detection measurement is provided) |
+| Detection measurement method | Pathogen | String | Additional details needed to interpret the quantitative measurement | qPCR, Ct threshold = 35 (e.g., assay type, threshold definition, dilution factor, or counting method) | Optional |
+| Detection measurement interpretation | Pathogen | String | Guidance on how the quantitative value should be interpreted in context | Ct &lt; 35 considered positive (e.g., detection limit, clinical relevance, or whether the value indicates low vs high intensity) | Optional |
+| Detection limit | Pathogen | Number | The lowest value at which the assay reliably detects the pathogen | 35 | Optional |
+| Detection limit units | Pathogen | String | Units associated with the limit of detection | Ct | Optional |
 :::
 
 ::: callout-tip

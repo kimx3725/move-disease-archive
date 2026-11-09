@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-10-25">
+<meta name="dcterms.date" content="2026-11-09">
 
 <title>Data Standard – Move Disease Archive</title>
 <style>
@@ -164,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 25, 2026</p>
+      <p class="date">November 9, 2026</p>
     </div>
   </div>
   
@@ -263,15 +263,17 @@ Important
 <div class="table-responsive">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 18%">
-<col style="width: 12%">
-<col style="width: 27%">
-<col style="width: 18%">
-<col style="width: 22%">
+<col style="width: 16%">
+<col style="width: 14%">
+<col style="width: 10%">
+<col style="width: 23%">
+<col style="width: 16%">
+<col style="width: 19%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Variable</th>
+<th>Data Source (Movement/Pathogen)</th>
 <th>Type</th>
 <th>Description</th>
 <th>Example</th>
@@ -280,63 +282,88 @@ Important
 </thead>
 <tbody>
 <tr class="odd">
-<td>Sample ID</td>
+<td>Study ID</td>
+<td>Both</td>
 <td>String</td>
-<td>A user-generated, unique ID for the sample.</td>
+<td>Unique identifier(s) for the study represented in the Archive, including the Archive dataset ID and, where applicable, the permanent identifier(s) of the source movement and pathogen repositories.</td>
+<td>Bobcat; CA, USA. DOI: ….</td>
+<td>Required</td>
+</tr>
+<tr class="even">
+<td>PI Name</td>
+<td>Both</td>
+<td>String</td>
+<td>Principal Investigator (PI) name and contact information for the study represented in the Archive.</td>
+<td>Name (name@uni.edu)</td>
+<td>Required</td>
+</tr>
+<tr class="odd">
+<td>Sample ID</td>
+<td>Both</td>
+<td>String</td>
+<td>A user-generated ID for the sample.</td>
 <td>OS BZ19-114</td>
 <td>Required</td>
 </tr>
 <tr class="even">
 <td>Animal ID</td>
+<td>Both</td>
 <td>String</td>
-<td>A user-generated unique ID for the individual animal from which the sample was collected.</td>
-<td>BZ19-114 to indicate animal ID 114 sampled in 2019 in Belize</td>
+<td>A user-generated ID for the individual animal from which the sample was collected. Ideally, this could be a universally unique identifier (Poo et al.&nbsp;2022, Wikelski et al.&nbsp;2024). It may include the permanent ID of the source repositories, or global biodiversity information facility (GBIF) organism ID</td>
+<td>BZ19-114 to indicate animal ID 114 sampled in 2019 in Belize.</td>
 <td>Required</td>
 </tr>
 <tr class="odd">
 <td>Animal Taxon</td>
+<td>Both</td>
 <td>String</td>
-<td>Animal taxonomy.</td>
+<td>Scientific name of the animal taxon (following Darwin Core standard)</td>
 <td><em>Lynx rufus</em></td>
 <td>Required</td>
 </tr>
 <tr class="even">
-<td>Pathogen ID</td>
+<td>Start Date</td>
+<td>Movement</td>
 <td>String</td>
-<td>The identity of a parasite detected by the diagnostic test.</td>
-<td>Alphacoronavirus</td>
-<td>Required</td>
-</tr>
-<tr class="odd">
-<td>Further Disease Information</td>
-<td>String</td>
-<td>The archive link to the disease data</td>
-<td>repository link or Contact PI</td>
-<td>Optional (if applicable)</td>
-</tr>
-<tr class="even">
-<td>First deployment</td>
-<td>String</td>
-<td>First deployment date.</td>
+<td>Start date of the available movement data</td>
 <td>YYYYMMDD</td>
 <td>Required</td>
 </tr>
 <tr class="odd">
-<td>Latest deployment</td>
+<td>End Date</td>
+<td>Movement</td>
 <td>String</td>
-<td>Latest deployment date.</td>
+<td>End date of the available movement data</td>
 <td>YYYYMMDD</td>
 <td>Required</td>
 </tr>
 <tr class="even">
 <td>Sensor type</td>
+<td>Movement</td>
 <td>String</td>
-<td>Sensor type used to tag the animals.</td>
+<td>Sensor type used to record the animal’s location, behaviour, or condition</td>
 <td>GPS</td>
 <td>Required</td>
 </tr>
 <tr class="odd">
+<td>Pathogen ID</td>
+<td>Both</td>
+<td>String</td>
+<td>The identity of a pathogen detected by the test.</td>
+<td>Alphacoronavirus</td>
+<td>Required</td>
+</tr>
+<tr class="even">
+<td>Status of the animal</td>
+<td>Both</td>
+<td>String</td>
+<td>Categorical outcome of the individual’s fate</td>
+<td>Alive or Dead</td>
+<td>Required</td>
+</tr>
+<tr class="odd">
 <td>Sample collection method</td>
+<td>Pathogen</td>
 <td>String</td>
 <td>The technique used to acquire the sample and/or the tissue from which the sample was acquired.</td>
 <td>Swab</td>
@@ -344,27 +371,31 @@ Important
 </tr>
 <tr class="even">
 <td>Sample material</td>
+<td>Pathogen</td>
 <td>String</td>
-<td>Organic tissue or fluid or feces being collected (e.g., liver, blood, skin, whole organism, stool).</td>
+<td>Organic tissue or fluid being collected (e.g., “liver”; “blood”; “skin”; “whole organism”).</td>
 <td>Blood</td>
 <td>Optional</td>
 </tr>
 <tr class="odd">
-<td>Sample collection status</td>
-<td>String</td>
-<td>The Animal’s mortality status when the samples were collected.</td>
-<td>Alive or Dead</td>
-<td>Required</td>
-</tr>
-<tr class="even">
 <td>Sample collection date</td>
+<td>Pathogen</td>
 <td>String</td>
-<td>Date when the samples were collected.</td>
+<td>The date on which the sample was collected</td>
 <td>YYYYMMDD</td>
 <td>Required</td>
 </tr>
+<tr class="even">
+<td>Banked sample status</td>
+<td>Pathogen</td>
+<td>String</td>
+<td>Indicates whether an untested biological sample associated with the individual and sampling occasion is banked</td>
+<td>Yes, No, Unknown</td>
+<td>Optional</td>
+</tr>
 <tr class="odd">
 <td>Detection target</td>
+<td>Pathogen</td>
 <td>String</td>
 <td>The taxonomic identity of the pathogen being screened for in the sample.</td>
 <td>Coronaviridae</td>
@@ -372,57 +403,65 @@ Important
 </tr>
 <tr class="even">
 <td>Detection method</td>
+<td>Pathogen</td>
 <td>String</td>
-<td>The type of diagnostic test performed to detect the pathogen.</td>
+<td>The type of test performed to detect the pathogens.</td>
 <td>Semi-nested PCR</td>
 <td>Required</td>
 </tr>
 <tr class="odd">
 <td>Detection outcome</td>
+<td>Pathogen</td>
 <td>String</td>
 <td>Categorical outcome of the diagnostic test.</td>
-<td>Positive / Negative / Inconclusive</td>
+<td>Positive, negative, or inconclusive</td>
 <td>Required</td>
 </tr>
 <tr class="even">
 <td>Detection measurement</td>
+<td>Pathogen</td>
 <td>Number</td>
-<td>A numeric measurement associated with pathogen detection that provides more detail than presence/absence.</td>
-<td>27.4 (e.g., PCR Ct value)</td>
+<td>A numeric measurement associated with pathogen detection that provides more detail than presence/absence</td>
+<td>27.4 (e.g., PCR Ct value, parasite load, fecal egg count, viral titer, and read count)</td>
 <td>Optional</td>
 </tr>
 <tr class="odd">
 <td>Detection measurement units</td>
+<td>Pathogen</td>
 <td>String</td>
 <td>Units associated with the detection measurement.</td>
 <td>Ct</td>
 <td>Optional (Required if detection measurement is provided)</td>
 </tr>
 <tr class="even">
-<td>Detection measurement method details</td>
+<td>Detection measurement method</td>
+<td>Pathogen</td>
 <td>String</td>
-<td>Additional details needed to interpret the quantitative measurement.</td>
-<td>qPCR, Ct threshold = 35</td>
+<td>Additional details needed to interpret the quantitative measurement</td>
+<td>qPCR, Ct threshold = 35 (e.g., assay type, threshold definition, dilution factor, or counting method)</td>
 <td>Optional</td>
 </tr>
 <tr class="odd">
 <td>Detection measurement interpretation</td>
+<td>Pathogen</td>
 <td>String</td>
-<td>Guidance on how the quantitative value should be interpreted in context.</td>
-<td>Ct &lt; 35 considered positive</td>
+<td>Guidance on how the quantitative value should be interpreted in context</td>
+<td>Ct &lt; 35 considered positive (e.g., detection limit, clinical relevance, or whether the value indicates low vs high intensity)</td>
 <td>Optional</td>
 </tr>
 <tr class="even">
 <td>Detection limit</td>
+<td>Pathogen</td>
 <td>Number</td>
-<td>The lowest value at which the assay reliably detects the pathogen.</td>
+<td>The lowest value at which the assay reliably detects the pathogen</td>
 <td>35</td>
 <td>Optional</td>
 </tr>
 <tr class="odd">
 <td>Detection limit units</td>
+<td>Pathogen</td>
 <td>String</td>
-<td>Units associated with the limit of detection.</td>
+<td>Units associated with the limit of detection</td>
 <td>Ct</td>
 <td>Optional</td>
 </tr>
